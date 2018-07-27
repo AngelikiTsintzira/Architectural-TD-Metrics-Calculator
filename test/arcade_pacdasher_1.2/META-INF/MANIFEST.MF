@@ -1,0 +1,411 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.2
+Created-By: James McCabe, oranda.com
+Main-Class: com.oranda.pacdasher.PacDasherMain
+Class-Path: ./pacdasher.jar ./pacdasher_resources.jar ./jaxp-api.jar .
+ /sax.jar ./xercesImpl.jar xml-apis.jar
+
+Name: com/oranda/pacdasher/controller/FrameRunner.class
+SHA1-Digest: lozcyomJnTGGIeXQkVcXofmliK4=
+
+Name: com/oranda/pacdasher/uimodel/event/PacMoveEvent.class
+SHA1-Digest: fJPd4rPTpgKklEZwr3KPtpKBVvk=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostClyde.class
+SHA1-Digest: bDab+dbMioybIuwjBUoSNZ+aq7s=
+
+Name: com/oranda/pacdasher/uimodel/persistence/MazeAccessor.class
+SHA1-Digest: xq0v+t+U04Y3Zs6lQsZMmg0ki6c=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Apple.class
+SHA1-Digest: Jam0fyrgrXfSQlIsB/XgD1ZHqnc=
+
+Name: com/oranda/pacdasher/ui/AbstractCanvas.class
+SHA1-Digest: nFOkV06qtK+3UGQhBHzj7OcEues=
+
+Name: com/oranda/pacdasher/ResourceMgr$AudioRunner$RunSoundHack.class
+SHA1-Digest: PYhiaWcf4uaHfMjpDkOUOxv5D1g=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerBeforeLevel.class
+SHA1-Digest: X2Mzna/nZ2qrij6H+2uGe84KiFQ=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerNormal.class
+SHA1-Digest: by0z0p7rvfGtD05lHpw5OYYJv48=
+
+Name: com/oranda/pacdasher/uimodel/persistence/IMazeAccessor.class
+SHA1-Digest: A0N+rm1GnGHzqsXKWarLDoR1Jx4=
+
+Name: com/oranda/util/AppEventManager.class
+SHA1-Digest: SsqiSMCpFNkTvs8012BxsrtrKW4=
+
+Name: com/oranda/pacdasher/uimodel/persistence/MazeRaw.class
+SHA1-Digest: i9jM0APba6gqwKnJt8z3OWcFWs0=
+
+Name: com/oranda/pacdasher/GlobVars.class
+SHA1-Digest: c2GMU2d1BYLhMVroFmroih+Xw+U=
+
+Name: com/oranda/pacdasher/controller/Animation$AnimationTask.class
+SHA1-Digest: tPTYj9ZjXurcutUQSIyqOsicQwY=
+
+Name: com/oranda/pacdasher/uimodel/IAnimated.class
+SHA1-Digest: taWGjBTf+ndgCwKpZ3hUpSS7Gck=
+
+Name: com/oranda/util/Arg.class
+SHA1-Digest: AW3fLI3faT5rZRunnmYtfdg+Hkc=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Dot.class
+SHA1-Digest: ZAqJgC9VcDM3Ltce9b5igzVTa0c=
+
+Name: com/oranda/pacdasher/ui/LivesCanvas.class
+SHA1-Digest: meljBlr4i0MwjAzFOCC3GXyHqAw=
+
+Name: com/oranda/pacdasher/uimodel/PacDasher.class
+SHA1-Digest: MQMc84jx1Eh5nMTCSpoM1PW15cY=
+
+Name: com/oranda/pacdasher/uimodel/VisualObjectFactory.class
+SHA1-Digest: vH1ALDw62KfjjNkPDsFQb0aRtmA=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostInky.class
+SHA1-Digest: ux/181eyb0qF07VPcYArNT6PCPQ=
+
+Name: com/oranda/pacdasher/ui/MazeCanvas.class
+SHA1-Digest: 8RMD2eKO30A4pXtSj5McbX9tRPk=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GMoveAttemptScatter.class
+SHA1-Digest: KDt2lyeFpCYScLSlU4/7IdzwQxQ=
+
+Name: com/oranda/util/Output.class
+SHA1-Digest: jOYmHsM1cf4yVBV/HR5J6lgBDxk=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GMoveAttemptFlight.class
+SHA1-Digest: YtVve2IL9e3E8aUn6xOW2vy1POg=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerPacCaptured.class
+SHA1-Digest: 91ubBU86Dxz37q6ctkiF2+1SkB0=
+
+Name: com/oranda/pacdasher/uimodel/AnimatedVisualObject.class
+SHA1-Digest: d9OWbaE0ONZxtCXHOZ8y8PDLxjE=
+
+Name: com/oranda/util/FileLogger.class
+SHA1-Digest: FD++h2I2DsyW4lLWGtsHYGfjmvg=
+
+Name: com/oranda/pacdasher/uimodel/Const.class
+SHA1-Digest: 9W1Z/V1HZj/rkH6MjU/KIV5JY2A=
+
+Name: com/oranda/pacdasher/uimodel/util/XYCoarse.class
+SHA1-Digest: KMAoDk3W6CBR1InfRbfw95qDqew=
+
+Name: com/oranda/pacdasher/ResourceMgr$AudioRunner.class
+SHA1-Digest: 5AqpqOr8SgdA8mVJFETKnpJSgoE=
+
+Name: com/oranda/pacdasher/controller/MazeRendererAnimated.class
+SHA1-Digest: ChMFphjSzLqg/ym1gkFOsykasaI=
+
+Name: com/oranda/pacdasher/uimodel/util/Direction.class
+SHA1-Digest: D0vkGhbwz8mYstsyf/QFBvV5Xp0=
+
+Name: com/oranda/util/AppEventManager$EventTimeComparator.class
+SHA1-Digest: ZhpDX7SddN2Y3OBSyIRJ2mLvsW8=
+
+Name: com/oranda/pacdasher/uimodel/util/UIModelConsts.class
+SHA1-Digest: zz8Z2O1TuLijN02KO7VgD3IEqyo=
+
+Name: com/oranda/pacdasher/uimodel/persistence/ParseException.class
+SHA1-Digest: KlDdPIQCG9m1t3ceFcgsuxth2aM=
+
+Name: com/oranda/pacdasher/controller/AppEventStateManager.class
+SHA1-Digest: CUzfvb46qhHiymbEjv9hAvVGV0Y=
+
+Name: com/oranda/pacdasher/uimodel/DirtyArea.class
+SHA1-Digest: rn/gHjW0uvjH774koE0NCz5wjHI=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostStrategyInky.class
+SHA1-Digest: 1OxaMzHztVRQl822Cr/A0mWsYtk=
+
+Name: com/oranda/util/FileUtils.class
+SHA1-Digest: igd97ep5TaeMIKi0hpFt0sB0cjM=
+
+Name: com/oranda/pacdasher/uimodel/IMobile.class
+SHA1-Digest: 95sweLiEeOlgld4vANh/dDtT4+I=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Cherry.class
+SHA1-Digest: PS9HqWO7SD5F96Kr0V8cEhKdOls=
+
+Name: com/oranda/pacdasher/controller/StateHolder$State.class
+SHA1-Digest: uRSYc6BPw9oPKQ4FUEAUprGdWeg=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Score.class
+SHA1-Digest: gXNZ9S0hYDuIjLV8iAk6ThoUt1U=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostStrategyPinky.class
+SHA1-Digest: ThzjJ1cEJR8MxjJCQMXNzMgbbn4=
+
+Name: com/oranda/util/AppEventDetails.class
+SHA1-Digest: CxbmmnIOkiWW3rBOTUUtfNzgOk4=
+
+Name: com/oranda/pacdasher/ResourceMgr.class
+SHA1-Digest: unbwKadHZHWs0yPGFLCKxNjETA4=
+
+Name: com/oranda/pacdasher/uimodel/MazeAnimatedObjects.class
+SHA1-Digest: EfGp8tKNkgIcwP23tStANflScBA=
+
+Name: com/oranda/CodingStandards.class
+SHA1-Digest: Pn+zvvChmZ5nFb5vMf/AOw6LOlw=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Energizer.class
+SHA1-Digest: xwQjIpk/wmeZSI40/NG6Uebq8qk=
+
+Name: com/oranda/pacdasher/PersistenceEngineFile$1.class
+SHA1-Digest: GdP4J5lf6rK3MXz/0yrox0k3rHA=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostCollection.class
+SHA1-Digest: 40mIfeJztOzEQFpRjV3YjDxt+ec=
+
+Name: com/oranda/pacdasher/controller/MazeRenderer.class
+SHA1-Digest: LiMcVuv1c/KOlJnXsG234uam6Kk=
+
+Name: com/oranda/pacdasher/ui/PacFrame.class
+SHA1-Digest: Pj01SEB3pbrV3WLpKy+LHhZ9qgM=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerGameReady.class
+SHA1-Digest: tP3swGZSMlRQyh332vSSYpSK37U=
+
+Name: com/oranda/pacdasher/controller/MazeRendererGameReady.class
+SHA1-Digest: rTzS0CY94ZpvJqpEaeuPFEHnsvw=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Peach.class
+SHA1-Digest: QaXdSUQC/baE5Im9bTDJgoi+61c=
+
+Name: com/oranda/CodingStandardsException.class
+SHA1-Digest: k77nebGORkjvUJZk2OT//z2uMus=
+
+Name: com/oranda/pacdasher/ui/GUI$3.class
+SHA1-Digest: KKNatBC44PzP1uBq/6w5069BruY=
+
+Name: com/oranda/pacdasher/uimodel/GameInfo.class
+SHA1-Digest: UtWvjYOmX/yTp5d69O9EinqoYq0=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostStrategy.class
+SHA1-Digest: 4BrQgigMpA34GqCtFQNyc2izVo4=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Fruit.class
+SHA1-Digest: mBLbkg3+5Pyxne/I6w+vcncyLuk=
+
+Name: com/oranda/pacdasher/ui/SplashCanvas.class
+SHA1-Digest: 2CNWRj5aZfwj5tv7YdY1j6B+feU=
+
+Name: com/oranda/pacdasher/uimodel/IPlayer.class
+SHA1-Digest: EbzB319ZD5sUBUeNVEJ7J9FNPso=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/Ghost.class
+SHA1-Digest: yxgXzLVQRoVwxXvzLsSosWvy7Ao=
+
+Name: com/oranda/pacdasher/IPersistenceEngine.class
+SHA1-Digest: 0BiuiJfGccHUerZQE5t/RsvsR48=
+
+Name: com/oranda/pacdasher/PersistenceEngineFile.class
+SHA1-Digest: 2rruAX+PCYdvaOpg+Gm1k+hzyow=
+
+Name: com/oranda/pacdasher/uimodel/MazeBackgroundStatic.class
+SHA1-Digest: gZLLbKyIR8ifv3uD37kO+CZWL1A=
+
+Name: com/oranda/pacdasher/uimodel/util/UIModelConsts$GhostState.class
+SHA1-Digest: L8KOR6pfTks9qn4r3u8xX/nZA18=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostStrategyBlinky.class
+SHA1-Digest: nQpHzZMRXmXn+bFRxfAFGRAHg+0=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/MoveAttempt.class
+SHA1-Digest: pllcGgNjR0b2KyoJ3WmoT3eiE+M=
+
+Name: com/oranda/pacdasher/ui/MenuCanvas.class
+SHA1-Digest: FXTmDp1katu3CTnHuVhiKGLOvQc=
+
+Name: com/oranda/pacdasher/Const.class
+SHA1-Digest: u271cQmKFbh/bi6tRoisa9YHn34=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerStart.class
+SHA1-Digest: kUjtRcDA/owxq1+uykAXayNzHDE=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Strawberry.class
+SHA1-Digest: YU5/mE7USh4ejopSgtW2jQxDetM=
+
+Name: com/oranda/util/ResourceUtils.class
+SHA1-Digest: Q8lveXlGzFRoKOHBJHyWJVbGLRY=
+
+Name: com/oranda/util/JDKOut$1.class
+SHA1-Digest: maaMq50tq/Rtysz+hlVh2TuPpjg=
+
+Name: com/oranda/pacdasher/ui/GUI$1.class
+SHA1-Digest: oh5YPIvJ4lMeZEEF12jf229IImg=
+
+Name: com/oranda/pacdasher/controller/StateHolder.class
+SHA1-Digest: d3V6b7hnuT5tNNqn08DlD9XUxwA=
+
+Name: com/oranda/pacdasher/uimodel/util/XY.class
+SHA1-Digest: 8YqrcRrWJ7TqQhcR2LyRtQTXxt4=
+
+Name: com/oranda/pacdasher/ui/GUI$2.class
+SHA1-Digest: 7df7I3oaRCDnY0g4npKXE0e/fJo=
+
+Name: com/oranda/pacdasher/PacDasherMain.class
+SHA1-Digest: DrqcG6x8VGsV6WZ6hwS1SStdlZo=
+
+Name: com/oranda/pacdasher/uimodel/MazeData.class
+SHA1-Digest: frMMZ1R1QPoI/yVP2aaXjuxvzzk=
+
+Name: com/oranda/pacdasher/uimodel/Maze.class
+SHA1-Digest: g82gtf3CU/Imc5mr5/gF98InOyg=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerBetweenGames.class
+SHA1-Digest: KeWECP5f/nx5ET65pNcymuTNQhk=
+
+Name: com/oranda/pacdasher/uimodel/event/PacScoreEvent.class
+SHA1-Digest: JS6/rCtH5HrglCKUWP5CR3cFqP8=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GMoveAttemptReturning.class
+SHA1-Digest: P/5wDUYGZYmk7ilHMJAb826D5kY=
+
+Name: com/oranda/pacdasher/uimodel/persistence/IUIModelReader.class
+SHA1-Digest: XE7hOn3ny2XpQtb0ab7NP5mGMpI=
+
+Name: com/oranda/pacdasher/ui/Const.class
+SHA1-Digest: hZlWDmc820FS1ZqwKi5tflOZp3M=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerReady.class
+SHA1-Digest: ifHi/Fqr0IhFHgxG+z+c3H5Dr1c=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostBlinky.class
+SHA1-Digest: iv16VHVBL/4sJym7YgqoJVp/W+o=
+
+Name: com/oranda/pacdasher/controller/AppEvents.class
+SHA1-Digest: wN6/KIt6KeBQrfbjqYIJKcJZmZM=
+
+Name: com/oranda/util/Output$1.class
+SHA1-Digest: kczMLFCS8jkgzniaDvGrNNkRxro=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Wall.class
+SHA1-Digest: mGsHuDeoViuAONwJ12MakCTBx40=
+
+Name: com/oranda/pacdasher/uimodel/persistence/MazeRaw$VisualObjectCol
+ lection.class
+SHA1-Digest: g+8x1oFLcLp17ew/TC+HTAU4RM4=
+
+Name: com/oranda/util/AppEventManager$EventStr1AndAllowedDur.class
+SHA1-Digest: Lx3W62qhaH5AXwGv/YH30yMwfek=
+
+Name: com/oranda/util/IOutput.class
+SHA1-Digest: O2cWYWmq6hVUoSlOMNpQ28edGps=
+
+Name: com/oranda/pacdasher/uimodel/persistence/ParseUtils.class
+SHA1-Digest: Oe0qjEsiMk6atqnnrXgLmcPaTd4=
+
+Name: com/oranda/pacdasher/PacProperties.class
+SHA1-Digest: p6ldhO3C0OjKhU50HfPItVc+CbE=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Kiwi.class
+SHA1-Digest: kxtNDkyyydmd5yBWH3F4HKakmtM=
+
+Name: com/oranda/pacdasher/uimodel/MobileVisualObject.class
+SHA1-Digest: QOHmQ1AkOkiR4tdAPVjaTt5qykU=
+
+Name: com/oranda/util/BriefFormatter.class
+SHA1-Digest: vJWzMLaREl86rHPqQVdvPSZkpjc=
+
+Name: com/oranda/pacdasher/uimodel/MazeBackgroundDynamic.class
+SHA1-Digest: bEA0V+xDDyMjE9Yz3zgXjd19Kqo=
+
+Name: com/oranda/pacdasher/controller/MazeRendererPacCaptured.class
+SHA1-Digest: TBlL40YOQ6auRNHSrH4vX9J1ALI=
+
+Name: com/oranda/pacdasher/PersistenceEngineBase.class
+SHA1-Digest: TSqgSo/yV/UUidyO2FRQr2fsM/o=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerGameOver.class
+SHA1-Digest: aROerkGROFkq9gJ0LSzE26GyRnM=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerCapture.class
+SHA1-Digest: bhZnc1/tpeX+FYcSDccJFDnHl+0=
+
+Name: com/oranda/pacdasher/controller/PerformanceStats.class
+SHA1-Digest: vILmlNy7m5ODUD0uDiWCKEs3hFg=
+
+Name: com/oranda/pacdasher/uimodel/VisualObject.class
+SHA1-Digest: D66Et4Ct8lY6uXqCRLis2nKsc+w=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostStrategyClyde.class
+SHA1-Digest: xavX8FvZC1FRKBJSuX1phf1FDdw=
+
+Name: com/oranda/util/JDKOut.class
+SHA1-Digest: SAn/huL5mJG3+k7y+iyiTV0sih4=
+
+Name: com/oranda/pacdasher/uimodel/event/PacEvent.class
+SHA1-Digest: 33NoxnCmpRvtHYgPLxsCjSFLgoM=
+
+Name: com/oranda/pacdasher/controller/MazeRendererGameOver.class
+SHA1-Digest: S88Ydi1PdZPmzUCM7qf089NYH24=
+
+Name: com/oranda/pacdasher/controller/Animation.class
+SHA1-Digest: oBWeHwkMW3NkECZ6vHlbJsXyW30=
+
+Name: com/oranda/pacdasher/uimodel/DirtyAreaQueue.class
+SHA1-Digest: eoKnLenJ0WYgHpKD3ztFVovDY3Q=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Background.class
+SHA1-Digest: NPgASXuP079bpx4XCHv3j6NDaUs=
+
+Name: com/oranda/pacdasher/uimodel/persistence/UIModelReaderJDOM.class
+SHA1-Digest: ym1Hp1cFj8Ll+d95w2Z3J6ga4pk=
+
+Name: com/oranda/pacdasher/ui/InfoCanvas.class
+SHA1-Digest: Z/CSTGmzbBpDVNqLhjfmaEKAFKA=
+
+Name: com/oranda/pacdasher/uimodel/PosAndDirection.class
+SHA1-Digest: XSr+sEPQM+TXJBMbxP47ZxfBS30=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostStrategyInky$NormalMove
+ AttemptInky.class
+SHA1-Digest: A0oFZMfJgPVH/wxWgXnf49vJXwE=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/Gate.class
+SHA1-Digest: NwAHgVw9K0BjvpwJrNcCWGG7QP8=
+
+Name: com/oranda/util/AppEventManagerSimple.class
+SHA1-Digest: r1NGnOijCpapwCAVn7RE/DqoN3c=
+
+Name: com/oranda/pacdasher/uimodel/UIModel.class
+SHA1-Digest: rvKXvUfpRIx5nWVNJk5+3Z0tPQA=
+
+Name: com/oranda/pacdasher/uimodel/util/XYCManager.class
+SHA1-Digest: 4kFnky3mv1Bd00ja8CD5kOwJjnI=
+
+Name: com/oranda/pacdasher/ui/GUI.class
+SHA1-Digest: wwUKfDoDbrHqQBQwm+kHB17Mg4w=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GMoveAttemptNormal.class
+SHA1-Digest: pn0N4MhXpTy43V6S2EzEOfdHmMk=
+
+Name: com/oranda/pacdasher/controller/FrameRunnerSplashScreen.class
+SHA1-Digest: O63Pgi6t9mWJk+DQQcCGg+awKB8=
+
+Name: com/oranda/pacdasher/uimodel/ghosts/GhostPinky.class
+SHA1-Digest: ifRkf7N7N9+DZPwc4C4d3YxaZSw=
+
+Name: com/oranda/pacdasher/uimodel/visualobjects/BoxWall.class
+SHA1-Digest: 33ctFzmzcCcKS3zKA5TcgAcW3PU=
+
+Name: com/oranda/pacdasher/controller/MazeRendererReady.class
+SHA1-Digest: au+i/lgp0JGsH+XSNgRKyaRiT4Q=
+
+Name: com/oranda/pacdasher/uimodel/event/IPacListener.class
+SHA1-Digest: XV99p5Oa7wuNIpODljFGcr1Du98=
+
+Name: com/oranda/pacdasher/controller/Const.class
+SHA1-Digest: YT8txZ2I5ON30XSIpsk33iTqIGA=
+
+Name: com/oranda/util/Str.class
+SHA1-Digest: 67e0m6NOscGukkH5X1gKyHLvMhM=
+
+Name: com/oranda/pacdasher/uimodel/util/DirectionCode.class
+SHA1-Digest: aCGfXV0gyWDSu6YdYvU0UZcZjf0=
+
