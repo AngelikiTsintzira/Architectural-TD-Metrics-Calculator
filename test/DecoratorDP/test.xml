@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<name>test</name>
+	<class>
+		<name>A</name>
+		<axis>
+			<description>implement axis</description>
+			<to>I</to>
+		</axis>
+		<tot_prob>0.625</tot_prob>
+	</class>
+	<class>
+		<name>D</name>
+		<axis>
+			<description>implement axis + reference axis</description>
+			<to>I</to>
+		</axis>
+		<tot_prob>0.625</tot_prob>
+	</class>
+	<class>
+		<name>I</name>
+		<tot_prob>0.5</tot_prob>
+	</class>
+	<class>
+		<name>X</name>
+		<axis>
+			<description>extend axis</description>
+			<to>D</to>
+		</axis>
+		<axis>
+			<description>reference axis</description>
+			<to>I</to>
+		</axis>
+		<tot_prob>0.7421875</tot_prob>
+	</class>
+	<class>
+		<name>Y</name>
+		<axis>
+			<description>extend axis</description>
+			<to>D</to>
+		</axis>
+		<axis>
+			<description>reference axis</description>
+			<to>I</to>
+		</axis>
+		<tot_prob>0.7421875</tot_prob>
+	</class>
+	<class>
+		<name>Z</name>
+		<axis>
+			<description>extend axis</description>
+			<to>D</to>
+		</axis>
+		<axis>
+			<description>reference axis</description>
+			<to>I</to>
+		</axis>
+		<tot_prob>0.7421875</tot_prob>
+	</class>
+</system>
+
