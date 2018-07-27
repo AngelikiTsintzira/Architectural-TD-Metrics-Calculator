@@ -1,0 +1,1790 @@
+Handling association from: JDOMAbout$Author to JDOMAbout$Author type: internal axis
+propagation_factor (JDOMAbout$Author->JDOMAbout$Author)=0.0
+Handling association from: JDOMAbout$Info to org.jdom.input.SAXBuilder type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 40.0
+NA: 20.0
+propagation_factor (JDOMAbout$Info->org.jdom.input.SAXBuilder)=0.016666666666666666
+Handling association from: JDOMAbout$Info to JDOMAbout$Author type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 2.0
+propagation_factor (JDOMAbout$Info->JDOMAbout$Author)=0.001
+Handling association from: JDOMAbout$Info to JDOMAbout$Info type: internal axis
+propagation_factor (JDOMAbout$Info->JDOMAbout$Info)=0.0
+Handling association from: JDOMAbout to JDOMAbout$Info type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 9.0
+propagation_factor (JDOMAbout->JDOMAbout$Info)=0.001
+Handling association from: JDOMAbout to JDOMAbout type: internal axis
+propagation_factor (JDOMAbout->JDOMAbout)=0.0
+Handling association from: org.jdom.adapters.AbstractDOMAdapter to org.jdom.adapters.DOMAdapter type: implement axis
+RFC: 0.0
+NOP: 2.0
+NPRF_USED: 0.0
+NPM: 4.0
+NA: 0.0
+propagation_factor (org.jdom.adapters.AbstractDOMAdapter->org.jdom.adapters.DOMAdapter)=0.5
+Handling association from: org.jdom.adapters.AbstractDOMAdapter to org.jdom.DocType type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.adapters.AbstractDOMAdapter->org.jdom.DocType)=0.17391304347826086
+Handling association from: org.jdom.adapters.AbstractDOMAdapter to org.jdom.adapters.AbstractDOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.AbstractDOMAdapter->org.jdom.adapters.AbstractDOMAdapter)=0.0
+Handling association from: org.jdom.adapters.CrimsonDOMAdapter to org.jdom.adapters.AbstractDOMAdapter type: extend axis
+RFC: 0.0
+NOP: 2.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.CrimsonDOMAdapter->org.jdom.adapters.AbstractDOMAdapter)=0.2857142857142857
+Handling association from: org.jdom.adapters.CrimsonDOMAdapter to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.CrimsonDOMAdapter->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.adapters.CrimsonDOMAdapter to org.jdom.adapters.CrimsonDOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.CrimsonDOMAdapter->org.jdom.adapters.CrimsonDOMAdapter)=0.0
+Handling association from: org.jdom.adapters.DOMAdapter to org.jdom.DocType type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.adapters.DOMAdapter->org.jdom.DocType)=0.001
+Handling association from: org.jdom.adapters.DOMAdapter to org.jdom.adapters.DOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.DOMAdapter->org.jdom.adapters.DOMAdapter)=0.0
+Handling association from: org.jdom.adapters.JAXPDOMAdapter to org.jdom.adapters.AbstractDOMAdapter type: extend axis
+RFC: 0.0
+NOP: 2.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.JAXPDOMAdapter->org.jdom.adapters.AbstractDOMAdapter)=0.2857142857142857
+Handling association from: org.jdom.adapters.JAXPDOMAdapter to org.jdom.input.BuilderErrorHandler type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.adapters.JAXPDOMAdapter->org.jdom.input.BuilderErrorHandler)=0.001
+Handling association from: org.jdom.adapters.JAXPDOMAdapter to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.JAXPDOMAdapter->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.adapters.JAXPDOMAdapter to org.jdom.adapters.JAXPDOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.JAXPDOMAdapter->org.jdom.adapters.JAXPDOMAdapter)=0.0
+Handling association from: org.jdom.adapters.OracleV1DOMAdapter to org.jdom.adapters.AbstractDOMAdapter type: extend axis
+RFC: 0.0
+NOP: 2.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.OracleV1DOMAdapter->org.jdom.adapters.AbstractDOMAdapter)=0.2857142857142857
+Handling association from: org.jdom.adapters.OracleV1DOMAdapter to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.OracleV1DOMAdapter->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.adapters.OracleV1DOMAdapter to org.jdom.adapters.OracleV1DOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.OracleV1DOMAdapter->org.jdom.adapters.OracleV1DOMAdapter)=0.0
+Handling association from: org.jdom.adapters.OracleV2DOMAdapter to org.jdom.adapters.AbstractDOMAdapter type: extend axis
+RFC: 0.0
+NOP: 2.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.OracleV2DOMAdapter->org.jdom.adapters.AbstractDOMAdapter)=0.2857142857142857
+Handling association from: org.jdom.adapters.OracleV2DOMAdapter to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.OracleV2DOMAdapter->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.adapters.OracleV2DOMAdapter to org.jdom.adapters.OracleV2DOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.OracleV2DOMAdapter->org.jdom.adapters.OracleV2DOMAdapter)=0.0
+Handling association from: org.jdom.adapters.XercesDOMAdapter to org.jdom.adapters.AbstractDOMAdapter type: extend axis
+RFC: 0.0
+NOP: 2.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.XercesDOMAdapter->org.jdom.adapters.AbstractDOMAdapter)=0.2857142857142857
+Handling association from: org.jdom.adapters.XercesDOMAdapter to org.jdom.input.BuilderErrorHandler type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.adapters.XercesDOMAdapter->org.jdom.input.BuilderErrorHandler)=0.001
+Handling association from: org.jdom.adapters.XercesDOMAdapter to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.XercesDOMAdapter->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.adapters.XercesDOMAdapter to org.jdom.adapters.XercesDOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.XercesDOMAdapter->org.jdom.adapters.XercesDOMAdapter)=0.0
+Handling association from: org.jdom.adapters.XML4JDOMAdapter to org.jdom.adapters.AbstractDOMAdapter type: extend axis
+RFC: 0.0
+NOP: 2.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.XML4JDOMAdapter->org.jdom.adapters.AbstractDOMAdapter)=0.2857142857142857
+Handling association from: org.jdom.adapters.XML4JDOMAdapter to org.jdom.input.BuilderErrorHandler type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.adapters.XML4JDOMAdapter->org.jdom.input.BuilderErrorHandler)=0.001
+Handling association from: org.jdom.adapters.XML4JDOMAdapter to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.adapters.XML4JDOMAdapter->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.adapters.XML4JDOMAdapter to org.jdom.adapters.XML4JDOMAdapter type: internal axis
+propagation_factor (org.jdom.adapters.XML4JDOMAdapter->org.jdom.adapters.XML4JDOMAdapter)=0.0
+Handling association from: org.jdom.Attribute to org.jdom.DataConversionException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.Attribute->org.jdom.DataConversionException)=0.001
+Handling association from: org.jdom.Attribute to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Attribute->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.Attribute to org.jdom.Namespace type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.Attribute->org.jdom.Namespace)=0.21428571428571427
+Handling association from: org.jdom.Attribute to org.jdom.IllegalNameException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Attribute->org.jdom.IllegalNameException)=0.001
+Handling association from: org.jdom.Attribute to org.jdom.Element type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.Attribute->org.jdom.Element)=0.022727272727272728
+Handling association from: org.jdom.Attribute to org.jdom.Attribute type: internal axis
+propagation_factor (org.jdom.Attribute->org.jdom.Attribute)=0.0
+Handling association from: org.jdom.AttributeList to org.jdom.IllegalAddException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.AttributeList->org.jdom.IllegalAddException)=0.001
+Handling association from: org.jdom.AttributeList to org.jdom.Attribute type: reference axis
+RFC: 5.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.AttributeList->org.jdom.Attribute)=0.11627906976744186
+Handling association from: org.jdom.AttributeList to org.jdom.Namespace type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.AttributeList->org.jdom.Namespace)=0.07142857142857142
+Handling association from: org.jdom.AttributeList to org.jdom.Element type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.AttributeList->org.jdom.Element)=0.011363636363636364
+Handling association from: org.jdom.AttributeList to org.jdom.AttributeList type: internal axis
+propagation_factor (org.jdom.AttributeList->org.jdom.AttributeList)=0.0
+Handling association from: org.jdom.CDATA to org.jdom.Text type: extend axis + reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 1.0
+NPM: 18.0
+NA: 3.0
+propagation_factor (org.jdom.CDATA->org.jdom.Text)=0.09523809523809523
+Handling association from: org.jdom.CDATA to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.CDATA->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.CDATA to org.jdom.CDATA type: internal axis
+propagation_factor (org.jdom.CDATA->org.jdom.CDATA)=0.0
+Handling association from: org.jdom.Comment to org.jdom.Content type: extend axis
+RFC: 0.0
+NOP: 1.0
+NPRF_USED: 1.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.Comment->org.jdom.Content)=0.2
+Handling association from: org.jdom.Comment to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Comment->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.Comment to org.jdom.output.XMLOutputter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 64.0
+NA: 5.0
+propagation_factor (org.jdom.Comment->org.jdom.output.XMLOutputter)=0.014492753623188406
+Handling association from: org.jdom.Comment to org.jdom.Comment type: internal axis
+propagation_factor (org.jdom.Comment->org.jdom.Comment)=0.0
+Handling association from: org.jdom.Content to org.jdom.Parent type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.Content->org.jdom.Parent)=0.13333333333333333
+Handling association from: org.jdom.Content to org.jdom.Content type: internal axis
+propagation_factor (org.jdom.Content->org.jdom.Content)=0.0
+Handling association from: org.jdom.ContentList$FilterList to org.jdom.filter.Filter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.ContentList$FilterList->org.jdom.filter.Filter)=1.0
+Handling association from: org.jdom.ContentList$FilterList to org.jdom.ContentList type: reference axis
+RFC: 8.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 6.0
+propagation_factor (org.jdom.ContentList$FilterList->org.jdom.ContentList)=0.27586206896551724
+Handling association from: org.jdom.ContentList$FilterList to org.jdom.IllegalAddException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.ContentList$FilterList->org.jdom.IllegalAddException)=0.001
+Handling association from: org.jdom.ContentList$FilterList to org.jdom.ContentList$FilterListIterator type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 10.0
+NA: 10.0
+propagation_factor (org.jdom.ContentList$FilterList->org.jdom.ContentList$FilterListIterator)=0.001
+Handling association from: org.jdom.ContentList$FilterList to org.jdom.ContentList$FilterList type: internal axis
+propagation_factor (org.jdom.ContentList$FilterList->org.jdom.ContentList$FilterList)=0.0
+Handling association from: org.jdom.ContentList$FilterListIterator to org.jdom.filter.Filter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.ContentList$FilterListIterator->org.jdom.filter.Filter)=1.0
+Handling association from: org.jdom.ContentList$FilterListIterator to org.jdom.ContentList type: reference axis
+RFC: 6.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 6.0
+propagation_factor (org.jdom.ContentList$FilterListIterator->org.jdom.ContentList)=0.20689655172413793
+Handling association from: org.jdom.ContentList$FilterListIterator to org.jdom.IllegalAddException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.ContentList$FilterListIterator->org.jdom.IllegalAddException)=0.001
+Handling association from: org.jdom.ContentList$FilterListIterator to org.jdom.ContentList$FilterListIterator type: internal axis
+propagation_factor (org.jdom.ContentList$FilterListIterator->org.jdom.ContentList$FilterListIterator)=0.0
+Handling association from: org.jdom.ContentList to org.jdom.filter.Filter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.ContentList->org.jdom.filter.Filter)=0.001
+Handling association from: org.jdom.ContentList to org.jdom.Parent type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.ContentList->org.jdom.Parent)=0.001
+Handling association from: org.jdom.ContentList to org.jdom.Text type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 3.0
+propagation_factor (org.jdom.ContentList->org.jdom.Text)=0.09523809523809523
+Handling association from: org.jdom.ContentList to org.jdom.IllegalAddException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.ContentList->org.jdom.IllegalAddException)=0.001
+Handling association from: org.jdom.ContentList to org.jdom.Content type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.ContentList->org.jdom.Content)=0.2
+Handling association from: org.jdom.ContentList to org.jdom.ContentList$FilterList type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 4.0
+propagation_factor (org.jdom.ContentList->org.jdom.ContentList$FilterList)=0.001
+Handling association from: org.jdom.ContentList to org.jdom.ContentList type: internal axis
+propagation_factor (org.jdom.ContentList->org.jdom.ContentList)=0.0
+Handling association from: org.jdom.DataConversionException to org.jdom.JDOMException type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.DataConversionException->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.DataConversionException to org.jdom.DataConversionException type: internal axis
+propagation_factor (org.jdom.DataConversionException->org.jdom.DataConversionException)=0.0
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.JDOMFactory type: implement axis
+RFC: 0.0
+NOP: 12.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.JDOMFactory)=0.48
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.CDATA type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 14.0
+NA: 1.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.CDATA)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.ProcessingInstruction type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 4.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.ProcessingInstruction)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Parent type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Parent)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Document type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Document)=0.025
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Comment type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 12.0
+NA: 2.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Comment)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Text type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 3.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Text)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.DocType type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.DocType)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Attribute type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Attribute)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.EntityRef type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 16.0
+NA: 4.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.EntityRef)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Namespace type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Namespace)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Content type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Content)=0.001
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.Element type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.Element)=0.03409090909090909
+Handling association from: org.jdom.DefaultJDOMFactory to org.jdom.DefaultJDOMFactory type: internal axis
+propagation_factor (org.jdom.DefaultJDOMFactory->org.jdom.DefaultJDOMFactory)=0.0
+Handling association from: org.jdom.DescendantIterator to org.jdom.Parent type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.DescendantIterator->org.jdom.Parent)=0.06666666666666667
+Handling association from: org.jdom.DescendantIterator to org.jdom.DescendantIterator type: internal axis
+propagation_factor (org.jdom.DescendantIterator->org.jdom.DescendantIterator)=0.0
+Handling association from: org.jdom.DocType to org.jdom.Content type: extend axis
+RFC: 0.0
+NOP: 1.0
+NPRF_USED: 1.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.DocType->org.jdom.Content)=0.2
+Handling association from: org.jdom.DocType to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.DocType->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.DocType to org.jdom.IllegalNameException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.DocType->org.jdom.IllegalNameException)=0.001
+Handling association from: org.jdom.DocType to org.jdom.output.XMLOutputter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 64.0
+NA: 5.0
+propagation_factor (org.jdom.DocType->org.jdom.output.XMLOutputter)=0.014492753623188406
+Handling association from: org.jdom.DocType to org.jdom.DocType type: internal axis
+propagation_factor (org.jdom.DocType->org.jdom.DocType)=0.0
+Handling association from: org.jdom.Document to org.jdom.Parent type: implement axis
+RFC: 0.0
+NOP: 9.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.Document->org.jdom.Parent)=0.6
+Handling association from: org.jdom.Document to org.jdom.filter.Filter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.Document->org.jdom.filter.Filter)=0.001
+Handling association from: org.jdom.Document to org.jdom.FilterIterator type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 4.0
+propagation_factor (org.jdom.Document->org.jdom.FilterIterator)=0.001
+Handling association from: org.jdom.Document to org.jdom.DocType type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.Document->org.jdom.DocType)=0.17391304347826086
+Handling association from: org.jdom.Document to org.jdom.ContentList type: reference axis
+RFC: 12.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 6.0
+propagation_factor (org.jdom.Document->org.jdom.ContentList)=0.41379310344827586
+Handling association from: org.jdom.Document to org.jdom.IllegalAddException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Document->org.jdom.IllegalAddException)=0.001
+Handling association from: org.jdom.Document to org.jdom.Content type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.Document->org.jdom.Content)=0.1
+Handling association from: org.jdom.Document to org.jdom.Element type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.Document->org.jdom.Element)=0.03409090909090909
+Handling association from: org.jdom.Document to org.jdom.DescendantIterator type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 6.0
+NA: 4.0
+propagation_factor (org.jdom.Document->org.jdom.DescendantIterator)=0.001
+Handling association from: org.jdom.Document to org.jdom.Document type: internal axis
+propagation_factor (org.jdom.Document->org.jdom.Document)=0.0
+Handling association from: org.jdom.Element to org.jdom.Content type: extend axis + reference axis
+RFC: 2.0
+NOP: 1.0
+NPRF_USED: 1.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.Element->org.jdom.Content)=0.4
+Handling association from: org.jdom.Element to org.jdom.Parent type: implement axis
+RFC: 1.0
+NOP: 9.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.Element->org.jdom.Parent)=0.6666666666666666
+Handling association from: org.jdom.Element to org.jdom.filter.Filter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.Element->org.jdom.filter.Filter)=0.001
+Handling association from: org.jdom.Element to org.jdom.filter.ElementFilter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 3.0
+propagation_factor (org.jdom.Element->org.jdom.filter.ElementFilter)=0.001
+Handling association from: org.jdom.Element to org.jdom.Text type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 3.0
+propagation_factor (org.jdom.Element->org.jdom.Text)=0.19047619047619047
+Handling association from: org.jdom.Element to org.jdom.Attribute type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.Element->org.jdom.Attribute)=0.06976744186046512
+Handling association from: org.jdom.Element to org.jdom.AttributeList type: reference axis
+RFC: 5.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 19.0
+NA: 5.0
+propagation_factor (org.jdom.Element->org.jdom.AttributeList)=0.20833333333333334
+Handling association from: org.jdom.Element to org.jdom.FilterIterator type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 4.0
+propagation_factor (org.jdom.Element->org.jdom.FilterIterator)=0.001
+Handling association from: org.jdom.Element to org.jdom.ContentList type: reference axis
+RFC: 10.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 6.0
+propagation_factor (org.jdom.Element->org.jdom.ContentList)=0.3448275862068966
+Handling association from: org.jdom.Element to org.jdom.IllegalAddException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Element->org.jdom.IllegalAddException)=0.001
+Handling association from: org.jdom.Element to org.jdom.Namespace type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.Element->org.jdom.Namespace)=0.21428571428571427
+Handling association from: org.jdom.Element to org.jdom.IllegalNameException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Element->org.jdom.IllegalNameException)=0.001
+Handling association from: org.jdom.Element to org.jdom.DescendantIterator type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 6.0
+NA: 4.0
+propagation_factor (org.jdom.Element->org.jdom.DescendantIterator)=0.001
+Handling association from: org.jdom.Element to org.jdom.Element type: internal axis
+propagation_factor (org.jdom.Element->org.jdom.Element)=0.0
+Handling association from: org.jdom.EntityRef to org.jdom.Content type: extend axis
+RFC: 0.0
+NOP: 1.0
+NPRF_USED: 1.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.EntityRef->org.jdom.Content)=0.2
+Handling association from: org.jdom.EntityRef to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.EntityRef->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.EntityRef to org.jdom.IllegalNameException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.EntityRef->org.jdom.IllegalNameException)=0.001
+Handling association from: org.jdom.EntityRef to org.jdom.EntityRef type: internal axis
+propagation_factor (org.jdom.EntityRef->org.jdom.EntityRef)=0.0
+Handling association from: org.jdom.filter.AbstractFilter to org.jdom.filter.Filter type: implement axis + reference axis
+RFC: 0.0
+NOP: 1.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.filter.AbstractFilter->org.jdom.filter.Filter)=1.0
+Handling association from: org.jdom.filter.AbstractFilter to org.jdom.filter.OrFilter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 7.0
+NA: 3.0
+propagation_factor (org.jdom.filter.AbstractFilter->org.jdom.filter.OrFilter)=0.001
+Handling association from: org.jdom.filter.AbstractFilter to org.jdom.filter.AndFilter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 7.0
+NA: 3.0
+propagation_factor (org.jdom.filter.AbstractFilter->org.jdom.filter.AndFilter)=0.001
+Handling association from: org.jdom.filter.AbstractFilter to org.jdom.filter.NegateFilter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 2.0
+propagation_factor (org.jdom.filter.AbstractFilter->org.jdom.filter.NegateFilter)=0.001
+Handling association from: org.jdom.filter.AbstractFilter to org.jdom.filter.AbstractFilter type: internal axis
+propagation_factor (org.jdom.filter.AbstractFilter->org.jdom.filter.AbstractFilter)=0.0
+Handling association from: org.jdom.filter.AndFilter to org.jdom.filter.AbstractFilter type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.filter.AndFilter->org.jdom.filter.AbstractFilter)=0.001
+Handling association from: org.jdom.filter.AndFilter to org.jdom.filter.Filter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.filter.AndFilter->org.jdom.filter.Filter)=1.0
+Handling association from: org.jdom.filter.AndFilter to org.jdom.filter.AndFilter type: internal axis
+propagation_factor (org.jdom.filter.AndFilter->org.jdom.filter.AndFilter)=0.0
+Handling association from: org.jdom.filter.ContentFilter to org.jdom.filter.AbstractFilter type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.filter.ContentFilter->org.jdom.filter.AbstractFilter)=0.001
+Handling association from: org.jdom.filter.ContentFilter to org.jdom.filter.ContentFilter type: internal axis
+propagation_factor (org.jdom.filter.ContentFilter->org.jdom.filter.ContentFilter)=0.0
+Handling association from: org.jdom.filter.ElementFilter to org.jdom.filter.AbstractFilter type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.filter.ElementFilter->org.jdom.filter.AbstractFilter)=0.001
+Handling association from: org.jdom.filter.ElementFilter to org.jdom.Namespace type: reference axis
+RFC: 5.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.filter.ElementFilter->org.jdom.Namespace)=0.35714285714285715
+Handling association from: org.jdom.filter.ElementFilter to org.jdom.filter.ElementFilter type: internal axis
+propagation_factor (org.jdom.filter.ElementFilter->org.jdom.filter.ElementFilter)=0.0
+Handling association from: org.jdom.filter.Filter to org.jdom.filter.Filter type: internal axis
+propagation_factor (org.jdom.filter.Filter->org.jdom.filter.Filter)=0.0
+Handling association from: org.jdom.filter.NegateFilter to org.jdom.filter.AbstractFilter type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.filter.NegateFilter->org.jdom.filter.AbstractFilter)=0.001
+Handling association from: org.jdom.filter.NegateFilter to org.jdom.filter.Filter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.filter.NegateFilter->org.jdom.filter.Filter)=1.0
+Handling association from: org.jdom.filter.NegateFilter to org.jdom.filter.NegateFilter type: internal axis
+propagation_factor (org.jdom.filter.NegateFilter->org.jdom.filter.NegateFilter)=0.0
+Handling association from: org.jdom.filter.OrFilter to org.jdom.filter.AbstractFilter type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.filter.OrFilter->org.jdom.filter.AbstractFilter)=0.001
+Handling association from: org.jdom.filter.OrFilter to org.jdom.filter.Filter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.filter.OrFilter->org.jdom.filter.Filter)=1.0
+Handling association from: org.jdom.filter.OrFilter to org.jdom.filter.OrFilter type: internal axis
+propagation_factor (org.jdom.filter.OrFilter->org.jdom.filter.OrFilter)=0.0
+Handling association from: org.jdom.FilterIterator to org.jdom.filter.Filter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.FilterIterator->org.jdom.filter.Filter)=1.0
+Handling association from: org.jdom.FilterIterator to org.jdom.FilterIterator type: internal axis
+propagation_factor (org.jdom.FilterIterator->org.jdom.FilterIterator)=0.0
+Handling association from: org.jdom.IllegalAddException to org.jdom.ProcessingInstruction type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 4.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.ProcessingInstruction)=0.037037037037037035
+Handling association from: org.jdom.IllegalAddException to org.jdom.CDATA type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 14.0
+NA: 1.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.CDATA)=0.13333333333333333
+Handling association from: org.jdom.IllegalAddException to org.jdom.Comment type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 12.0
+NA: 2.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.Comment)=0.07142857142857142
+Handling association from: org.jdom.IllegalAddException to org.jdom.Text type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 3.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.Text)=0.047619047619047616
+Handling association from: org.jdom.IllegalAddException to org.jdom.DocType type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.DocType)=0.043478260869565216
+Handling association from: org.jdom.IllegalAddException to org.jdom.Attribute type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.Attribute)=0.023255813953488372
+Handling association from: org.jdom.IllegalAddException to org.jdom.EntityRef type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 16.0
+NA: 4.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.EntityRef)=0.05
+Handling association from: org.jdom.IllegalAddException to org.jdom.Namespace type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.Namespace)=0.14285714285714285
+Handling association from: org.jdom.IllegalAddException to org.jdom.Element type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.IllegalAddException->org.jdom.Element)=0.011363636363636364
+Handling association from: org.jdom.IllegalAddException to org.jdom.IllegalAddException type: internal axis
+propagation_factor (org.jdom.IllegalAddException->org.jdom.IllegalAddException)=0.0
+Handling association from: org.jdom.IllegalDataException to org.jdom.IllegalDataException type: internal axis
+propagation_factor (org.jdom.IllegalDataException->org.jdom.IllegalDataException)=0.0
+Handling association from: org.jdom.IllegalNameException to org.jdom.IllegalNameException type: internal axis
+propagation_factor (org.jdom.IllegalNameException->org.jdom.IllegalNameException)=0.0
+Handling association from: org.jdom.IllegalTargetException to org.jdom.IllegalTargetException type: internal axis
+propagation_factor (org.jdom.IllegalTargetException->org.jdom.IllegalTargetException)=0.0
+Handling association from: org.jdom.input.BuilderErrorHandler to org.jdom.input.BuilderErrorHandler type: internal axis
+propagation_factor (org.jdom.input.BuilderErrorHandler->org.jdom.input.BuilderErrorHandler)=0.0
+Handling association from: org.jdom.input.DOMBuilder to org.jdom.Document type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.input.DOMBuilder->org.jdom.Document)=0.05
+Handling association from: org.jdom.input.DOMBuilder to org.jdom.DefaultJDOMFactory type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 1.0
+propagation_factor (org.jdom.input.DOMBuilder->org.jdom.DefaultJDOMFactory)=0.001
+Handling association from: org.jdom.input.DOMBuilder to org.jdom.Element type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.input.DOMBuilder->org.jdom.Element)=0.022727272727272728
+Handling association from: org.jdom.input.DOMBuilder to org.jdom.JDOMFactory type: reference axis
+RFC: 12.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.input.DOMBuilder->org.jdom.JDOMFactory)=0.48
+Handling association from: org.jdom.input.DOMBuilder to org.jdom.input.DOMBuilder type: internal axis
+propagation_factor (org.jdom.input.DOMBuilder->org.jdom.input.DOMBuilder)=0.0
+Handling association from: org.jdom.input.JAXPParserFactory to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.input.JAXPParserFactory->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.input.JAXPParserFactory to org.jdom.input.JAXPParserFactory type: internal axis
+propagation_factor (org.jdom.input.JAXPParserFactory->org.jdom.input.JAXPParserFactory)=0.0
+Handling association from: org.jdom.input.JDOMParseException to org.jdom.JDOMException type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.input.JDOMParseException->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.input.JDOMParseException to org.jdom.Document type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.input.JDOMParseException->org.jdom.Document)=0.001
+Handling association from: org.jdom.input.JDOMParseException to org.jdom.input.JDOMParseException type: internal axis
+propagation_factor (org.jdom.input.JDOMParseException->org.jdom.input.JDOMParseException)=0.0
+Handling association from: org.jdom.input.SAXBuilder to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.input.SAXBuilder->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.input.SAXBuilder to org.jdom.input.BuilderErrorHandler type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.input.SAXBuilder->org.jdom.input.BuilderErrorHandler)=0.001
+Handling association from: org.jdom.input.SAXBuilder to org.jdom.input.JDOMParseException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 14.0
+NA: 2.0
+propagation_factor (org.jdom.input.SAXBuilder->org.jdom.input.JDOMParseException)=0.001
+Handling association from: org.jdom.input.SAXBuilder to org.jdom.DefaultJDOMFactory type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 1.0
+propagation_factor (org.jdom.input.SAXBuilder->org.jdom.DefaultJDOMFactory)=0.001
+Handling association from: org.jdom.input.SAXBuilder to org.jdom.input.SAXHandler type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 39.0
+NA: 20.0
+propagation_factor (org.jdom.input.SAXBuilder->org.jdom.input.SAXHandler)=0.06779661016949153
+Handling association from: org.jdom.input.SAXBuilder to org.jdom.JDOMFactory type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.input.SAXBuilder->org.jdom.JDOMFactory)=0.001
+Handling association from: org.jdom.input.SAXBuilder to org.jdom.input.SAXBuilder type: internal axis
+propagation_factor (org.jdom.input.SAXBuilder->org.jdom.input.SAXBuilder)=0.0
+Handling association from: org.jdom.input.SAXHandler to org.jdom.DefaultJDOMFactory type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 1.0
+propagation_factor (org.jdom.input.SAXHandler->org.jdom.DefaultJDOMFactory)=0.001
+Handling association from: org.jdom.input.SAXHandler to org.jdom.input.TextBuffer type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 6.0
+NA: 4.0
+propagation_factor (org.jdom.input.SAXHandler->org.jdom.input.TextBuffer)=0.4
+Handling association from: org.jdom.input.SAXHandler to org.jdom.Element type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.input.SAXHandler->org.jdom.Element)=0.03409090909090909
+Handling association from: org.jdom.input.SAXHandler to org.jdom.JDOMFactory type: reference axis
+RFC: 11.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.input.SAXHandler->org.jdom.JDOMFactory)=0.44
+Handling association from: org.jdom.input.SAXHandler to org.jdom.input.SAXHandler type: internal axis
+propagation_factor (org.jdom.input.SAXHandler->org.jdom.input.SAXHandler)=0.0
+Handling association from: org.jdom.input.TextBuffer to org.jdom.input.TextBuffer type: internal axis
+propagation_factor (org.jdom.input.TextBuffer->org.jdom.input.TextBuffer)=0.0
+Handling association from: org.jdom.JDOMException to org.jdom.JDOMException type: internal axis
+propagation_factor (org.jdom.JDOMException->org.jdom.JDOMException)=0.0
+Handling association from: org.jdom.JDOMFactory to org.jdom.Parent type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.JDOMFactory->org.jdom.Parent)=0.001
+Handling association from: org.jdom.JDOMFactory to org.jdom.DocType type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.JDOMFactory->org.jdom.DocType)=0.001
+Handling association from: org.jdom.JDOMFactory to org.jdom.Namespace type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.JDOMFactory->org.jdom.Namespace)=0.001
+Handling association from: org.jdom.JDOMFactory to org.jdom.Attribute type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.JDOMFactory->org.jdom.Attribute)=0.001
+Handling association from: org.jdom.JDOMFactory to org.jdom.Content type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.JDOMFactory->org.jdom.Content)=0.001
+Handling association from: org.jdom.JDOMFactory to org.jdom.Element type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.JDOMFactory->org.jdom.Element)=0.001
+Handling association from: org.jdom.JDOMFactory to org.jdom.JDOMFactory type: internal axis
+propagation_factor (org.jdom.JDOMFactory->org.jdom.JDOMFactory)=0.0
+Handling association from: org.jdom.Namespace to org.jdom.NamespaceKey type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 4.0
+propagation_factor (org.jdom.Namespace->org.jdom.NamespaceKey)=0.001
+Handling association from: org.jdom.Namespace to org.jdom.IllegalNameException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Namespace->org.jdom.IllegalNameException)=0.001
+Handling association from: org.jdom.Namespace to org.jdom.Namespace type: internal axis
+propagation_factor (org.jdom.Namespace->org.jdom.Namespace)=0.0
+Handling association from: org.jdom.NamespaceKey to org.jdom.Namespace type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.NamespaceKey->org.jdom.Namespace)=0.14285714285714285
+Handling association from: org.jdom.NamespaceKey to org.jdom.NamespaceKey type: internal axis
+propagation_factor (org.jdom.NamespaceKey->org.jdom.NamespaceKey)=0.0
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.Document type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.Document)=0.05
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.DocType type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.DocType)=0.001
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.output.NamespaceStack type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 3.0
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.output.NamespaceStack)=0.5
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.Attribute type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.Attribute)=0.09302325581395349
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.Namespace type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.Namespace)=0.14285714285714285
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.Element type: reference axis
+RFC: 6.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.Element)=0.06818181818181818
+Handling association from: org.jdom.output.DOMOutputter to org.jdom.output.DOMOutputter type: internal axis
+propagation_factor (org.jdom.output.DOMOutputter->org.jdom.output.DOMOutputter)=0.0
+Handling association from: org.jdom.output.EscapeStrategy to org.jdom.output.EscapeStrategy type: internal axis
+propagation_factor (org.jdom.output.EscapeStrategy->org.jdom.output.EscapeStrategy)=0.0
+Handling association from: org.jdom.output.Format$DefaultEscapeStrategy to org.jdom.output.EscapeStrategy type: implement axis
+RFC: 0.0
+NOP: 1.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.output.Format$DefaultEscapeStrategy->org.jdom.output.EscapeStrategy)=1.0
+Handling association from: org.jdom.output.Format$DefaultEscapeStrategy to org.jdom.output.Format type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 22.0
+NA: 14.0
+propagation_factor (org.jdom.output.Format$DefaultEscapeStrategy->org.jdom.output.Format)=0.027777777777777776
+Handling association from: org.jdom.output.Format$DefaultEscapeStrategy to org.jdom.output.Format$DefaultEscapeStrategy type: internal axis
+propagation_factor (org.jdom.output.Format$DefaultEscapeStrategy->org.jdom.output.Format$DefaultEscapeStrategy)=0.0
+Handling association from: org.jdom.output.Format$TextMode to org.jdom.output.Format$TextMode type: internal axis
+propagation_factor (org.jdom.output.Format$TextMode->org.jdom.output.Format$TextMode)=0.0
+Handling association from: org.jdom.output.Format to org.jdom.output.Format$TextMode type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 2.0
+NA: 5.0
+propagation_factor (org.jdom.output.Format->org.jdom.output.Format$TextMode)=0.001
+Handling association from: org.jdom.output.Format to org.jdom.output.EscapeStrategy type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.output.Format->org.jdom.output.EscapeStrategy)=0.001
+Handling association from: org.jdom.output.Format to org.jdom.output.Format$DefaultEscapeStrategy type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 4.0
+propagation_factor (org.jdom.output.Format->org.jdom.output.Format$DefaultEscapeStrategy)=0.001
+Handling association from: org.jdom.output.Format to org.jdom.output.Format type: internal axis
+propagation_factor (org.jdom.output.Format->org.jdom.output.Format)=0.0
+Handling association from: org.jdom.output.JDOMLocator to org.jdom.output.JDOMLocator type: internal axis
+propagation_factor (org.jdom.output.JDOMLocator->org.jdom.output.JDOMLocator)=0.0
+Handling association from: org.jdom.output.NamespaceStack to org.jdom.Namespace type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.output.NamespaceStack->org.jdom.Namespace)=0.14285714285714285
+Handling association from: org.jdom.output.NamespaceStack to org.jdom.output.NamespaceStack type: internal axis
+propagation_factor (org.jdom.output.NamespaceStack->org.jdom.output.NamespaceStack)=0.0
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.ProcessingInstruction type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 4.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.ProcessingInstruction)=0.07407407407407407
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.output.JDOMLocator type: reference axis
+RFC: 5.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 2.0
+NA: 2.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.output.JDOMLocator)=1.25
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.Document type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.Document)=0.075
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.JDOMException type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.JDOMException)=0.09090909090909091
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.output.NamespaceStack type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 3.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.output.NamespaceStack)=0.5
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.EntityRef type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 16.0
+NA: 4.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.EntityRef)=0.05
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.Namespace type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.Namespace)=0.14285714285714285
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.output.XMLOutputter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 64.0
+NA: 5.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.output.XMLOutputter)=0.014492753623188406
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.Content type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.Content)=0.001
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.Element type: reference axis
+RFC: 7.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.Element)=0.07954545454545454
+Handling association from: org.jdom.output.SAXOutputter to org.jdom.output.SAXOutputter type: internal axis
+propagation_factor (org.jdom.output.SAXOutputter->org.jdom.output.SAXOutputter)=0.0
+Handling association from: org.jdom.output.XMLOutputter$NamespaceStack to org.jdom.output.NamespaceStack type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 3.0
+propagation_factor (org.jdom.output.XMLOutputter$NamespaceStack->org.jdom.output.NamespaceStack)=0.001
+Handling association from: org.jdom.output.XMLOutputter$NamespaceStack to org.jdom.output.XMLOutputter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 64.0
+NA: 5.0
+propagation_factor (org.jdom.output.XMLOutputter$NamespaceStack->org.jdom.output.XMLOutputter)=0.001
+Handling association from: org.jdom.output.XMLOutputter$NamespaceStack to org.jdom.output.XMLOutputter$NamespaceStack type: internal axis
+propagation_factor (org.jdom.output.XMLOutputter$NamespaceStack->org.jdom.output.XMLOutputter$NamespaceStack)=0.0
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.ProcessingInstruction type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 4.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.ProcessingInstruction)=0.07407407407407407
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.Comment type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 12.0
+NA: 2.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.Comment)=0.07142857142857142
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.Text type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 3.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.Text)=0.14285714285714285
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.output.Format type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 22.0
+NA: 14.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.output.Format)=0.08333333333333333
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.EntityRef type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 16.0
+NA: 4.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.EntityRef)=0.1
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.Attribute type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.Attribute)=0.06976744186046512
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.output.XMLOutputter$NamespaceStack type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 5.0
+NA: 1.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.output.XMLOutputter$NamespaceStack)=0.6666666666666666
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.CDATA type: reference axis
+RFC: 5.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 14.0
+NA: 1.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.CDATA)=0.3333333333333333
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.Document type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.Document)=0.075
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.DocType type: reference axis
+RFC: 4.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.DocType)=0.17391304347826086
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.Namespace type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.Namespace)=0.14285714285714285
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.Element type: reference axis
+RFC: 6.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.Element)=0.06818181818181818
+Handling association from: org.jdom.output.XMLOutputter to org.jdom.output.XMLOutputter type: internal axis
+propagation_factor (org.jdom.output.XMLOutputter->org.jdom.output.XMLOutputter)=0.0
+Handling association from: org.jdom.Parent to org.jdom.filter.Filter type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 0.0
+propagation_factor (org.jdom.Parent->org.jdom.filter.Filter)=0.001
+Handling association from: org.jdom.Parent to org.jdom.Content type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.Parent->org.jdom.Content)=0.001
+Handling association from: org.jdom.Parent to org.jdom.Parent type: internal axis
+propagation_factor (org.jdom.Parent->org.jdom.Parent)=0.0
+Handling association from: org.jdom.ProcessingInstruction to org.jdom.Content type: extend axis
+RFC: 1.0
+NOP: 1.0
+NPRF_USED: 1.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.ProcessingInstruction->org.jdom.Content)=0.3
+Handling association from: org.jdom.ProcessingInstruction to org.jdom.IllegalTargetException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.ProcessingInstruction->org.jdom.IllegalTargetException)=0.001
+Handling association from: org.jdom.ProcessingInstruction to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.ProcessingInstruction->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.ProcessingInstruction to org.jdom.output.XMLOutputter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 64.0
+NA: 5.0
+propagation_factor (org.jdom.ProcessingInstruction->org.jdom.output.XMLOutputter)=0.014492753623188406
+Handling association from: org.jdom.ProcessingInstruction to org.jdom.ProcessingInstruction type: internal axis
+propagation_factor (org.jdom.ProcessingInstruction->org.jdom.ProcessingInstruction)=0.0
+Handling association from: org.jdom.Text to org.jdom.Content type: extend axis
+RFC: 1.0
+NOP: 1.0
+NPRF_USED: 1.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.Text->org.jdom.Content)=0.3
+Handling association from: org.jdom.Text to org.jdom.IllegalDataException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 0.0
+NA: 1.0
+propagation_factor (org.jdom.Text->org.jdom.IllegalDataException)=0.001
+Handling association from: org.jdom.Text to org.jdom.Text type: internal axis
+propagation_factor (org.jdom.Text->org.jdom.Text)=0.0
+Handling association from: org.jdom.transform.JDOMResult$DocumentBuilder to org.jdom.transform.JDOMResult$FragmentHandler type: reference axis
+RFC: 8.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 41.0
+NA: 1.0
+propagation_factor (org.jdom.transform.JDOMResult$DocumentBuilder->org.jdom.transform.JDOMResult$FragmentHandler)=0.19047619047619047
+Handling association from: org.jdom.transform.JDOMResult$DocumentBuilder to org.jdom.transform.JDOMResult type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 5.0
+propagation_factor (org.jdom.transform.JDOMResult$DocumentBuilder->org.jdom.transform.JDOMResult)=0.14285714285714285
+Handling association from: org.jdom.transform.JDOMResult$DocumentBuilder to org.jdom.transform.JDOMResult$DocumentBuilder type: internal axis
+propagation_factor (org.jdom.transform.JDOMResult$DocumentBuilder->org.jdom.transform.JDOMResult$DocumentBuilder)=0.0
+Handling association from: org.jdom.transform.JDOMResult$FragmentHandler to org.jdom.input.SAXHandler type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 39.0
+NA: 20.0
+propagation_factor (org.jdom.transform.JDOMResult$FragmentHandler->org.jdom.input.SAXHandler)=0.001
+Handling association from: org.jdom.transform.JDOMResult$FragmentHandler to org.jdom.Element type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.transform.JDOMResult$FragmentHandler->org.jdom.Element)=0.011363636363636364
+Handling association from: org.jdom.transform.JDOMResult$FragmentHandler to org.jdom.JDOMFactory type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.transform.JDOMResult$FragmentHandler->org.jdom.JDOMFactory)=0.001
+Handling association from: org.jdom.transform.JDOMResult$FragmentHandler to org.jdom.transform.JDOMResult$FragmentHandler type: internal axis
+propagation_factor (org.jdom.transform.JDOMResult$FragmentHandler->org.jdom.transform.JDOMResult$FragmentHandler)=0.0
+Handling association from: org.jdom.transform.JDOMResult to org.jdom.Document type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.transform.JDOMResult->org.jdom.Document)=0.05
+Handling association from: org.jdom.transform.JDOMResult to org.jdom.DefaultJDOMFactory type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 1.0
+propagation_factor (org.jdom.transform.JDOMResult->org.jdom.DefaultJDOMFactory)=0.001
+Handling association from: org.jdom.transform.JDOMResult to org.jdom.transform.JDOMResult$DocumentBuilder type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 16.0
+NA: 3.0
+propagation_factor (org.jdom.transform.JDOMResult->org.jdom.transform.JDOMResult$DocumentBuilder)=0.05263157894736842
+Handling association from: org.jdom.transform.JDOMResult to org.jdom.JDOMFactory type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.transform.JDOMResult->org.jdom.JDOMFactory)=0.04
+Handling association from: org.jdom.transform.JDOMResult to org.jdom.transform.JDOMResult type: internal axis
+propagation_factor (org.jdom.transform.JDOMResult->org.jdom.transform.JDOMResult)=0.0
+Handling association from: org.jdom.transform.JDOMSource$DocumentReader to org.jdom.output.SAXOutputter type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 48.0
+NA: 18.0
+propagation_factor (org.jdom.transform.JDOMSource$DocumentReader->org.jdom.output.SAXOutputter)=0.001
+Handling association from: org.jdom.transform.JDOMSource$DocumentReader to org.jdom.transform.JDOMSource$DocumentReader type: internal axis
+propagation_factor (org.jdom.transform.JDOMSource$DocumentReader->org.jdom.transform.JDOMSource$DocumentReader)=0.0
+Handling association from: org.jdom.transform.JDOMSource$JDOMInputSource to org.jdom.Document type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.transform.JDOMSource$JDOMInputSource->org.jdom.Document)=0.001
+Handling association from: org.jdom.transform.JDOMSource$JDOMInputSource to org.jdom.output.XMLOutputter type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 64.0
+NA: 5.0
+propagation_factor (org.jdom.transform.JDOMSource$JDOMInputSource->org.jdom.output.XMLOutputter)=0.014492753623188406
+Handling association from: org.jdom.transform.JDOMSource$JDOMInputSource to org.jdom.transform.JDOMSource$JDOMInputSource type: internal axis
+propagation_factor (org.jdom.transform.JDOMSource$JDOMInputSource->org.jdom.transform.JDOMSource$JDOMInputSource)=0.0
+Handling association from: org.jdom.transform.JDOMSource to org.jdom.transform.JDOMSource$JDOMInputSource type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 3.0
+NA: 1.0
+propagation_factor (org.jdom.transform.JDOMSource->org.jdom.transform.JDOMSource$JDOMInputSource)=0.25
+Handling association from: org.jdom.transform.JDOMSource to org.jdom.Document type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.transform.JDOMSource->org.jdom.Document)=0.001
+Handling association from: org.jdom.transform.JDOMSource to org.jdom.transform.JDOMSource$DocumentReader type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 50.0
+NA: 0.0
+propagation_factor (org.jdom.transform.JDOMSource->org.jdom.transform.JDOMSource$DocumentReader)=0.02
+Handling association from: org.jdom.transform.JDOMSource to org.jdom.Element type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.transform.JDOMSource->org.jdom.Element)=0.001
+Handling association from: org.jdom.transform.JDOMSource to org.jdom.transform.JDOMSource type: internal axis
+propagation_factor (org.jdom.transform.JDOMSource->org.jdom.transform.JDOMSource)=0.0
+Handling association from: org.jdom.transform.XSLTransformer to org.jdom.Document type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.transform.XSLTransformer->org.jdom.Document)=0.001
+Handling association from: org.jdom.transform.XSLTransformer to org.jdom.transform.JDOMSource type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 4.0
+propagation_factor (org.jdom.transform.XSLTransformer->org.jdom.transform.JDOMSource)=0.001
+Handling association from: org.jdom.transform.XSLTransformer to org.jdom.transform.XSLTransformException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.transform.XSLTransformer->org.jdom.transform.XSLTransformException)=0.001
+Handling association from: org.jdom.transform.XSLTransformer to org.jdom.transform.JDOMResult type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 5.0
+propagation_factor (org.jdom.transform.XSLTransformer->org.jdom.transform.JDOMResult)=0.21428571428571427
+Handling association from: org.jdom.transform.XSLTransformer to org.jdom.JDOMFactory type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.transform.XSLTransformer->org.jdom.JDOMFactory)=0.001
+Handling association from: org.jdom.transform.XSLTransformer to org.jdom.transform.XSLTransformer type: internal axis
+propagation_factor (org.jdom.transform.XSLTransformer->org.jdom.transform.XSLTransformer)=0.0
+Handling association from: org.jdom.transform.XSLTransformException to org.jdom.JDOMException type: extend axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.transform.XSLTransformException->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.transform.XSLTransformException to org.jdom.transform.XSLTransformException type: internal axis
+propagation_factor (org.jdom.transform.XSLTransformException->org.jdom.transform.XSLTransformException)=0.0
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.JDOMFactory type: implement axis
+RFC: 0.0
+NOP: 12.0
+NPRF_USED: 0.0
+NPM: 25.0
+NA: 0.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.JDOMFactory)=0.48
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.CDATA type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 14.0
+NA: 1.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.CDATA)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.ProcessingInstruction type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 23.0
+NA: 4.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.ProcessingInstruction)=0.037037037037037035
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Parent type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 15.0
+NA: 0.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Parent)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Document type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 36.0
+NA: 4.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Document)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Comment type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 12.0
+NA: 2.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Comment)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Text type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 3.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Text)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.DocType type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 18.0
+NA: 5.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.DocType)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Attribute type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Attribute)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.EntityRef type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 16.0
+NA: 4.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.EntityRef)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Namespace type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Namespace)=0.07142857142857142
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Content type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 1.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Content)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.Element type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.Element)=0.001
+Handling association from: org.jdom.UncheckedJDOMFactory to org.jdom.UncheckedJDOMFactory type: internal axis
+propagation_factor (org.jdom.UncheckedJDOMFactory->org.jdom.UncheckedJDOMFactory)=0.0
+Handling association from: org.jdom.Verifier to org.jdom.Namespace type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.Verifier->org.jdom.Namespace)=0.21428571428571427
+Handling association from: org.jdom.Verifier to org.jdom.Attribute type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 26.0
+NA: 17.0
+propagation_factor (org.jdom.Verifier->org.jdom.Attribute)=0.023255813953488372
+Handling association from: org.jdom.Verifier to org.jdom.Element type: reference axis
+RFC: 3.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 81.0
+NA: 7.0
+propagation_factor (org.jdom.Verifier->org.jdom.Element)=0.03409090909090909
+Handling association from: org.jdom.Verifier to org.jdom.Verifier type: internal axis
+propagation_factor (org.jdom.Verifier->org.jdom.Verifier)=0.0
+Handling association from: org.jdom.xpath.JaxenXPath$NSContext to org.jdom.xpath.JaxenXPath type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 20.0
+NA: 3.0
+propagation_factor (org.jdom.xpath.JaxenXPath$NSContext->org.jdom.xpath.JaxenXPath)=0.043478260869565216
+Handling association from: org.jdom.xpath.JaxenXPath$NSContext to org.jdom.xpath.JaxenXPath$NSContext type: internal axis
+propagation_factor (org.jdom.xpath.JaxenXPath$NSContext->org.jdom.xpath.JaxenXPath$NSContext)=0.0
+Handling association from: org.jdom.xpath.JaxenXPath to org.jdom.xpath.XPath type: extend axis
+RFC: 0.0
+NOP: 7.0
+NPRF_USED: 0.0
+NPM: 14.0
+NA: 7.0
+propagation_factor (org.jdom.xpath.JaxenXPath->org.jdom.xpath.XPath)=0.3333333333333333
+Handling association from: org.jdom.xpath.JaxenXPath to org.jdom.xpath.JaxenXPath$NSContext type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 1.0
+propagation_factor (org.jdom.xpath.JaxenXPath->org.jdom.xpath.JaxenXPath$NSContext)=0.001
+Handling association from: org.jdom.xpath.JaxenXPath to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.xpath.JaxenXPath->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.xpath.JaxenXPath to org.jdom.Namespace type: reference axis
+RFC: 2.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.xpath.JaxenXPath->org.jdom.Namespace)=0.14285714285714285
+Handling association from: org.jdom.xpath.JaxenXPath to org.jdom.xpath.JaxenXPath type: internal axis
+propagation_factor (org.jdom.xpath.JaxenXPath->org.jdom.xpath.JaxenXPath)=0.0
+Handling association from: org.jdom.xpath.XPath$XPathString to org.jdom.xpath.XPath$XPathString type: internal axis
+propagation_factor (org.jdom.xpath.XPath$XPathString->org.jdom.xpath.XPath$XPathString)=0.0
+Handling association from: org.jdom.xpath.XPath to org.jdom.JDOMException type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 9.0
+NA: 2.0
+propagation_factor (org.jdom.xpath.XPath->org.jdom.JDOMException)=0.001
+Handling association from: org.jdom.xpath.XPath to org.jdom.xpath.XPath$XPathString type: reference axis
+RFC: 0.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 1.0
+NA: 1.0
+propagation_factor (org.jdom.xpath.XPath->org.jdom.xpath.XPath$XPathString)=0.001
+Handling association from: org.jdom.xpath.XPath to org.jdom.Namespace type: reference axis
+RFC: 1.0
+NOP: 0.0
+NPRF_USED: 0.0
+NPM: 8.0
+NA: 6.0
+propagation_factor (org.jdom.xpath.XPath->org.jdom.Namespace)=0.07142857142857142
+Handling association from: org.jdom.xpath.XPath to org.jdom.xpath.XPath type: internal axis
+propagation_factor (org.jdom.xpath.XPath->org.jdom.xpath.XPath)=0.0
