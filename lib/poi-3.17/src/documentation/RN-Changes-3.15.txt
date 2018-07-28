@@ -1,0 +1,31 @@
+@List changes here@
+
+[Beta 3 Changes]
+
+- HSSF, HSLF, HPSF and HWPF support for writing out to a File, including
+  existing open file (#57919)
+- SS named range lookup/creation now quicker and scaled better (#59734)
+- Various SS function improvements (#59881, #59106)
+- Various error message improvements (#59766, #59776)
+- Various enums created for places previously using int constants
+
+[Beta 2 Changes]
+
+- initial work on extracting VBA macros (#52949)
+- remove deprecated classes (#59170)
+- various X/HSLF fixes for table and color handling
+- XSSF: formula evaluation performance improvements (#57840)
+- various fixes for merged regions in Common SS
+
+[Beta 1 Changes]
+
+- removal of deprecated elements (#59170)
+- avoid XmlBeans calls to piccolo parser which caused OOM in rare cases (#57031)
+- support for passwords longer than 15 chars for write-protection or binary formats (#59135)
+- various NPE fixes in XSSF/HSSF
+- fixes for color handling in XSSF and support for system colors in Common SL
+
+
+Backwards Incompatible changes:
+
+- Apache Commons Collections 4 added as a dependency
