@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   ====================================================================
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   ====================================================================
+-->
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V1.3//EN" "./dtd/document-v13.dtd">
+
+<document>
+  <header>
+    <title>Apache POI - the Java API for Microsoft Documents</title>
+    <authors>
+      <person id="AO" name="Andrew C. Oliver" email="acoliver@apache.org"/>
+      <person id="GJS" name="Glen Stampoultzis" email="user@poi.apache.org"/>
+      <person id="AS" name="Avik Sengupta" email="user@poi.apache.org"/>
+      <person id="RK" name="Rainer Klute" email="klute@apache.org"/>
+      <person id="DF" name="David Fisher" email="dfisher@jmlafferty.com"/>
+    </authors>
+  </header>
+
+  <body>
+    <section><title>Project News</title>
+      <section><title>15 August 2017 - Initial support for JDK 9</title>
+        <p>We did some work to verify that compilation with Java 9 is working and
+          that all unit-tests pass.
+        </p>
+        <p>See the details in the <link href="faq.html#faq-N102B0">FAQ entry</link>.</p>
+      </section>
+
+      <!-- latest beta release, if newer than latest final release -->
+      <section><title>01 July 2017 - POI 3.17 beta 1 available</title>
+      <p>The Apache POI team is pleased to announce the release of 3.17 beta 1.
+         This release includes improved support for tables in XSSF/HSLF
+         and support for Binary RC4 / CryptoAPI de-/encryption in HWPF.
+      </p>
+      <p>A summary of changes is available in the 
+        <link href="https://www.apache.org/dyn/closer.lua/poi/dev/RELEASE-NOTES-3.17-beta1.txt">Release Notes</link>.
+        A full list of changes is available in the <link href="changes.html#3.17-beta1">change log</link>. 
+        People interested should also follow the <link href="mailinglists.html">dev list</link> to track progress.</p>
+       <p>See the <link href="download.html#POI-3.17-beta1">downloads</link> page for more details.</p>
+      </section>
+
+      <!-- latest final release -->
+      <section><title>19 April 2017 - POI 3.16 available</title>
+      <p>The Apache POI team is pleased to announce the release of 3.16. 
+         Featured are a handful of new areas of functionality and numerous bug fixes.</p>
+      <p>A summary of changes is available in the 
+        <link href="https://www.apache.org/dyn/closer.lua/poi/release/RELEASE-NOTES.txt">Release Notes</link>.
+        A full list of changes is available in the <link href="changes.html#3.16">change log</link>. 
+        People interested should also follow the <link href="mailinglists.html">dev list</link> to track progress.</p>
+       <p>See the <link href="download.html#POI-3.16">downloads</link> page for more details.</p>
+      </section>
+
+      <section><title>20 March 2017 - CVE-2017-5644 - Possible DOS (Denial of Service) in Apache POI versions prior to 3.15</title>
+        <p>
+          Apache POI in versions prior to release 3.15 allows remote attackers to cause a denial of service (CPU consumption)
+          via a specially crafted OOXML file, aka an XML Entity Expansion (XEE) attack.
+
+          Users with applications which accept content from external or untrusted sources are advised to upgrade to
+          Apache POI 3.15 or newer.
+
+          Thanks to Xiaolong Zhu and Huijun Chen from Huawei Technologies Co., Ltd. for reporting the vulnerability.
+        </p>
+      </section>
+
+    </section>
+
+    <section><title>Mission Statement</title>
+      <p>
+      The Apache POI Project's mission is to create and maintain Java APIs for manipulating various file formats
+      based upon the Office Open XML standards (OOXML) and Microsoft's OLE 2 Compound Document format (OLE2).
+      In short, you can read and write MS Excel files using Java.
+      In addition, you can read and write MS Word and MS PowerPoint files using Java.  Apache POI is your Java Excel
+      solution (for Excel 97-2008). We have a complete API for porting other OOXML and OLE2 formats and welcome others to participate.
+      </p>
+      <p>
+      OLE2 files include most Microsoft Office files such as XLS, DOC, and PPT as well as MFC serialization API based file formats.
+      The project provides APIs for the <link href="poifs/index.html">OLE2 Filesystem (POIFS)</link> and
+      <link href="hpsf/index.html">OLE2 Document Properties (HPSF)</link>.
+      </p>
+      <p>
+      Office OpenXML Format is the new standards based XML file format found in Microsoft Office 2007 and 2008.
+      This includes XLSX, DOCX and PPTX. The project provides a low level API to support the Open Packaging Conventions
+      using <link href="oxml4j/index.html">openxml4j</link>.
+      </p>
+      <p>
+	For each MS Office application there exists a component module that attempts to provide a common high level Java api to both OLE2 and OOXML
+	document formats. This is most developed for <link href="spreadsheet/index.html">Excel workbooks (SS=HSSF+XSSF)</link>.
+	Work is progressing for <link href="document/index.html">Word documents (WP=HWPF+XWPF)</link> and
+	<link href="slideshow/index.html">PowerPoint presentations (SL=HSLF+XSLF)</link>.
+      </p>
+      <p>
+	The project has some support for <link href="hsmf/index.html">Outlook (HSMF)</link>. Microsoft opened the specifications
+	to this format in October 2007. We would welcome contributions.
+      </p>
+      <p>
+        There are also projects for 
+        <link href="diagram/index.html">Visio (HDGF and XDGF)</link>,
+        <link href="hmef/index.html">TNEF (HMEF)</link>,
+        and <link href="hpbf/index.html">Publisher (HPBF)</link>.
+      </p>
+      <p>
+         As a general policy we collaborate as much as possible with other projects to
+         provide this functionality.  Examples include: <link href="https://xml.apache.org/cocoon">Cocoon</link> for
+         which there are serializers for HSSF;
+         <link href="https://www.openoffice.org">Open Office.org</link> with whom we collaborate in documenting the
+         XLS format; and <link href="https://tika.apache.org/">Tika</link> / 
+         <link href="https://lucene.apache.org">Lucene</link>,
+         for which we provide format interpretors.  When practical, we donate
+         components directly to those projects for POI-enabling them. 
+      </p>
+      <section><title>Why should I use Apache POI?</title>
+      <p>
+	A major use of the Apache POI api is for <link href="text-extraction.html">Text Extraction</link> applications
+	such as web spiders, index builders, and content management systems.
+      </p>
+        <p>
+		So why should you use POIFS, HSSF or XSSF?
+        </p>
+        <p>
+		You'd use POIFS if you had a document written in OLE 2 Compound Document Format, probably written using
+		MFC, that you needed to read in Java. Alternatively, you'd use POIFS to write OLE 2 Compound Document Format
+		if you needed to inter-operate with software running on the Windows platform. We are not just bragging when
+		we say that POIFS is the most complete and correct implementation of this file format to date!
+        </p>
+        <p>
+		You'd use HSSF if you needed to read or write an Excel file using Java (XLS). You'd use
+        XSSF if you need to read or write an OOXML Excel file using Java (XLSX). The combined
+        SS interface allows you to easily read and write all kinds of Excel files (XLS and XLSX)
+        using Java. Additionally there is a specialized SXSSF implementation which allows to write
+        very large Excel (XLSX) files in a memory optimized way.
+        </p>
+      </section>
+      <section><title>Components</title>
+	<p>
+	  The Apache POI Project provides several component modules some of which may not be of interest to you.
+	  Use the information on our <link href="overview.html#components">Components</link> page to determine which
+	  jar files to include in your classpath.
+	</p>
+      </section>
+    </section>
+
+    <section><title>Contributing </title>
+      <p>
+        So you'd like to contribute to the project? Great! We need enthusiastic, 
+        hard-working, talented folks to help us on the project, no matter your
+        background. So if you're motivated, ready, and have the time: Download the 
+        source from the
+        <link href="subversion.html">Subversion Repository</link>, 
+        <link href="howtobuild.html">build the code</link>, join the 
+        <link href="mailinglists.html">mailing lists</link>, and we'll be happy to 
+        help you get started on the project!
+      </p>
+      <helpwanted/>
+      <p>
+        Please read our <link href="guidelines.html">Contribution Guidelines</link>. 
+        When your contribution is ready submit a patch to our 
+        <link href="https://bz.apache.org/bugzilla/buglist.cgi?product=POI">Bug Database</link>.
+      </p>
+    </section>
+  </body>
+  <footer>
+    <legal>
+      Copyright (c) @year@ The Apache Software Foundation. All rights reserved.
+      <br />
+      Apache POI, POI, Apache, the Apache feather logo, and the Apache 
+      POI project logo are trademarks of The Apache Software Foundation.
+    </legal>
+  </footer>
+</document>
+
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: xml
+sgml-omittag:nil
+sgml-shorttag:nil
+sgml-namecase-general:nil
+sgml-general-insert-case:lower
+sgml-minimize-attributes:nil
+sgml-always-quote-attributes:t
+sgml-indent-step:2
+sgml-indent-data:t
+sgml-parent-document:nil
+sgml-exposed-tags:nil
+sgml-local-catalogs:nil
+sgml-local-ecat-files:nil
+End:
+-->

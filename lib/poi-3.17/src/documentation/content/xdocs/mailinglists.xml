@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   ====================================================================
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   ====================================================================
+-->
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V1.3//EN" "./dtd/document-v13.dtd">
+
+<document>
+  <header>
+    <title>Mailing Lists</title>
+    <authors>
+      <person id="NB" name="Nick Burch" email="nick@apache.org"/>
+    </authors>
+  </header>
+  
+  <body>
+    <section><title>Mailing Lists - Guidelines</title>
+      <p>
+        <strong>Before subscribing or participating in any of the mailing 
+        lists, we suggest you read and understand the following 
+        guidelines:</strong>
+      </p>
+      <ul>
+        <li><link href="https://www.apache.org/foundation/mailinglists.html">ASF guide to Mailing Lists</link></li>
+        <li><link href="https://www.apache.org/dev/contrib-email-tips.html">ASF Tips for email contributors</link></li>
+        <li><link href="https://jakarta.apache.org/site/mail.html">The Jakarta guide to Mailing Lists</link></li>
+      </ul>
+    </section>
+    <section><title>Lists</title>
+      <section><title>The POI Developer List</title>
+        <p>
+          <strong>Medium Traffic</strong>
+          <link href="https://lists.apache.org/list.html?dev@poi.apache.org">View,
+           Participate and Subscribe to the Dev List</link>
+        </p>
+        <p>
+          This is the list where participating developers of the POI 
+          project meet and discuss issues, code changes/additions, etc. 
+          Subscribers to this list also get notices of each and every 
+          code change, build results, testing notices, etc. 
+          <strong>Do not send mail to this list with usage questions or 
+          configuration problems. Use the <link href="#The+POI+User+List">POI User List</link> or community sites
+          such as <link href="#Stack+Overflow">Stack Overflow</link>, instead.</strong>
+        </p> 
+        <p>
+          Alternate options:
+          <link href="mailto:dev-subscribe@poi.apache.org">Subscribe</link>
+          <link href="mailto:dev-unsubscribe@poi.apache.org">Unsubscribe</link>
+          <link href="https://mail-archives.apache.org/mod_mbox/poi-dev/">Old Archive</link>
+          <link href="http://news.gmane.org/gmane.comp.jakarta.poi.devel">gmane.org</link>
+          <link href="http://apache-poi.1045710.n5.nabble.com/POI-Dev-f2312866.html">Nabble</link>
+          <link href="http://markmail.org/search/org.apache.poi.dev+list:org.apache.poi.dev">MarkMail</link>
+        </p> 
+      </section>
+      <section><title>The POI User List</title>
+        <p>
+          <strong>Low Traffic</strong>
+          <link href="https://lists.apache.org/list.html?user@poi.apache.org">View,
+           Participate and Subscribe to the User List</link>
+        </p>
+        <p>
+          This list is for users of POI to ask questions, share knowledge, 
+          and discuss issues. POI developers are also expected to be 
+          lurking on this list to offer support to users of POI.
+        </p>
+        <p>
+          Alternate options:
+          <link href="mailto:user-subscribe@poi.apache.org">Subscribe</link>
+          <link href="mailto:user-unsubscribe@poi.apache.org">Unsubscribe</link>
+          <link href="https://mail-archives.apache.org/mod_mbox/poi-user/">Old Archive</link>
+          <link href="http://news.gmane.org/thread.php?group=gmane.comp.jakarta.poi.user">gmane.org</link>
+          <link href="http://apache-poi.1045710.n5.nabble.com/POI-User-f2280730.html">Nabble</link>
+          <link href="http://markmail.org/search/org.apache.poi.user+list:org.apache.poi.user">MarkMail</link>
+        </p> 
+      </section>
+      <section><title>The POI General List</title>
+        <p>
+          <strong>Very Low Traffic</strong>
+          <link href="https://lists.apache.org/list.html?general@poi.apache.org">View,
+           Participate and Subscribe to the General List</link>
+        </p>
+        <p>
+          This list exists for general discussions on POI, not specific to
+          code or problems with code. Used for discussion of general matters
+          relating to all of the POI project, such as the website and
+          changes in procedures.
+        </p> 
+        <p>
+          Alternate options:
+          <link href="mailto:general-subscribe@poi.apache.org">Subscribe</link>
+          <link href="mailto:general-unsubscribe@poi.apache.org">Unsubscribe</link>
+          <link href="https://mail-archives.apache.org/mod_mbox/poi-general/">Old Archive</link>
+        </p> 
+      </section>
+    </section>
+    <section><title>IRC</title>
+        <p>The #apache-poi channel on the <link href="https://webchat.freenode.net/?channels=#apache-poi">irc.freenode.net</link>
+        IRC network is a good place for quick questions. If your questions require a more in-depth answer,
+        you will likely be encouraged to move the question to the mailing list.
+        </p>
+    </section>
+    <section><title>Stack Overflow and other communities</title>
+        <p>
+           There are many POI users in the Stack Overflow community who have asked
+           and answered questions that may be similar to the problem you are facing.
+           Search for the <link href="http://stackoverflow.com/questions/tagged/apache-poi">apache-poi</link> 
+           tag on Stack Overflow.
+        </p>
+        <p>Regardless of which community you seek help from, remember to be courteous.
+           Short, working code examples, an explanation of observed and expected behavior,
+           the version of POI you are using, and genuine troubleshooting and research effort
+           on your part go a long way towards getting a helpful answer.
+        </p>
+        <p>Please read through the <link href="faq.html">FAQ</link>,
+           <link href="spreadsheet/quick-guide.html">Quick Guide</link>,
+           <link href="spreadsheet/how-to.html">How To</link> or
+           <link href="slideshow/xslf-cookbook.html">Cookbook</link>, and
+           <link href="spreadsheet/examples.html">Examples</link>
+           of the POI module that you are trying to use before consulting help. You may also find your
+           question has already been answered on the POI <link href="#The+POI+Developer+List">dev</link>
+           or <link href="#The+POI+User+List">user</link> mailing lists,
+           <link href="https://bz.apache.org/bugzilla/describecomponents.cgi?product=POI">bugzilla</link>,
+        </p>
+    </section>
+  </body>
+  <footer>
+    <legal>
+      Copyright (c) @year@ The Apache Software Foundation. All rights reserved.
+      <br />
+      Apache POI, POI, Apache, the Apache feather logo, and the Apache 
+      POI project logo are trademarks of The Apache Software Foundation.
+    </legal>
+  </footer>
+</document>

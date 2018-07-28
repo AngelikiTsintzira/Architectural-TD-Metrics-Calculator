@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   ====================================================================
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   ====================================================================
+-->
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V1.3//EN" "./dtd/document-v13.dtd">
+
+<document>
+  <header>
+    <title>Apache POI - Download Release Artifacts</title>
+  </header>
+
+  <body>
+    <section><title>Available Downloads</title>
+      <p>
+       This page provides instructions on how to download and verify the
+       Apache POI release artifacts. There are different versions available depending on
+        how stable your code should be.
+      </p>
+      <ul>
+          <li><link href="download.html#POI-3.17-beta1">The latest beta release is Apache POI 3.17-beta1</link></li>
+          <li><link href="download.html#POI-3.16">The latest stable release is Apache POI 3.16</link></li>
+          <li><link href="download.html#nightly">Nightly/CI builds are available as well</link></li>
+          <li><link href="download.html#archive">Archives of all prior releases</link></li>
+      </ul>
+      <p>
+        Apache POI releases are available under the <link href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</link> 
+        See the NOTICE file contained in each release artifact for applicable copyright attribution notices. 
+      </p>
+      <p>
+        To ensure that you have downloaded the true release you should <link href="download.html#verify">verify the integrity</link> 
+        of the files using the signatures and checksums available from this page.
+      </p>
+    </section>
+
+    <!-- latest beta release -->
+
+
+    <section id="POI-3.17-beta1"><title>01 July 2017 - POI 3.17-beta1 available</title>
+      <p>The Apache POI team is pleased to announce the release of 3.17-beta1.
+         Featured are a handful of new areas of functionality and numerous bug fixes.</p>
+      <p>A summary of changes is available in the
+        <link href="https://www.apache.org/dyn/closer.lua/poi/dev/RELEASE-NOTES-3.17-beta1.txt">Release Notes</link>.
+        A full list of changes is available in the <link href="changes.html">change log</link>.
+        People interested should also follow the <link href="mailinglists.html">dev list</link>
+        to track progress.</p>
+      <p>
+        The POI source release as well as the pre-built binary deployment packages are listed below.
+        Pre-built versions of all <link href="overview.html#components">POI components</link>
+        are available in the central Maven repository under Group ID "org.apache.poi" and Version
+        "3.17-beta1".
+      </p>
+      <section id="POI-3.17-beta1-bin"><title>Binary Distribution</title>
+      <ul>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/dev/bin/poi-bin-3.17-beta1-20170701.tar.gz">poi-bin-3.17-beta1-20170701.tar.gz</link>
+          (20.11 MB, <link href="https://www.apache.org/dist/poi/dev/bin/poi-bin-3.17-beta1-20170701.tar.gz.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/dev/bin/poi-bin-3.17-beta1-20170701.tar.gz.md5">
+          b0c29f837c4fe411c76ac73899f6cef3</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/dev/bin/poi-bin-3.17-beta1-20170701.tar.gz.sha1">
+          5f9a85afa374209d885243051bd25b1f3524df35</link>
+        </li>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/dev/bin/poi-bin-3.17-beta1-20170701.zip">poi-bin-3.17-beta1-20170701.zip</link>
+          (28.69 MB, <link href="https://www.apache.org/dist/poi/dev/bin/poi-bin-3.17-beta1-20170701.zip.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/dev/bin/poi-bin-3.17-beta1-20170701.zip.md5">
+          01a851625c1e4f07e7c794a9a1ee34df</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/dev/bin/poi-bin-3.17-beta1-20170701.zip.sha1">
+          3c5bc487c842c7f6f65384be3a6f82538103892d</link>
+        </li>
+      </ul>
+      </section>
+      <section id="POI-3.17-beta1-src"><title>Source Distribution</title>
+      <ul>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/dev/src/poi-src-3.17-beta1-20170701.tar.gz">poi-src-3.17-beta1-20170701.tar.gz</link>
+          (82.73 MB, <link href="https://www.apache.org/dist/poi/dev/src/poi-src-3.17-beta1-20170701.tar.gz.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/dev/src/poi-src-3.17-beta1-20170701.tar.gz.md5">
+          e70a44b2fe7abc8770e43fc7a1c37b59</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/dev/src/poi-src-3.17-beta1-20170701.tar.gz.sha1">
+          fe9c808d38139fc7efe2de6c0a1a8d41283973cc</link>
+        </li>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/dev/src/poi-src-3.17-beta1-20170701.zip">poi-src-3.17-beta1-20170701.zip</link>
+          (86.87 MB, <link href="https://www.apache.org/dist/poi/dev/src/poi-src-3.17-beta1-20170701.zip.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/dev/src/poi-src-3.17-beta1-20170701.zip.md5">
+          5da06274e9a4ff9f22e1631408d68d5d</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/dev/src/poi-src-3.17-beta1-20170701.zip.sha1">
+          89e49927dd598f1a8b63b7febd7db3b5cb8dfa26</link>
+        </li>
+      </ul>
+      </section>
+    </section>
+ 
+    <!-- latest final release -->
+
+    <section id="POI-3.16"><title>19 April 2017 - POI 3.16 available</title>
+      <p>The Apache POI team is pleased to announce the release of 3.16.
+         Featured are a handful of new areas of functionality and numerous bug fixes.</p>
+      <p>A summary of changes is available in the
+        <link href="https://www.apache.org/dyn/closer.lua/poi/release/RELEASE-NOTES.txt">Release Notes</link>.
+        A full list of changes is available in the <link href="changes.html">change log</link>.
+        People interested should also follow the <link href="mailinglists.html">dev list</link>
+        to track progress.</p>
+      <p>
+        The POI source release as well as the pre-built binary deployment packages are listed below.
+        Pre-built versions of all <link href="overview.html#components">POI components</link>
+        are available in the central Maven repository under Group ID "org.apache.poi" and Version
+        "3.16".
+      </p>
+      <section id="POI-3.16-bin"><title>Binary Distribution</title>
+      <ul>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/release/bin/poi-bin-3.16-20170419.tar.gz">poi-bin-3.16-20170419.tar.gz</link>
+          (19.96 MB, <link href="https://www.apache.org/dist/poi/release/bin/poi-bin-3.16-20170419.tar.gz.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/release/bin/poi-bin-3.16-20170419.tar.gz.md5">
+          4993db375f9b49b254ee239f1bc09202</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/release/bin/poi-bin-3.16-20170419.tar.gz.sha1">
+          33a2b41547e43f2dad3d1d13a08a122b422a605a</link>
+        </li>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/release/bin/poi-bin-3.16-20170419.zip">poi-bin-3.16-20170419.zip</link>
+          (28.49 MB, <link href="https://www.apache.org/dist/poi/release/bin/poi-bin-3.16-20170419.zip.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/release/bin/poi-bin-3.16-20170419.zip.md5">
+          c0b16803ee4ebdc1da1240c7fb28c997</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/release/bin/poi-bin-3.16-20170419.zip.sha1">
+          43672d02682bf5b88f01f35c5da6cf05b9d9d844</link>
+        </li>
+      </ul>
+      </section>
+      <section id="POI-3.16-src"><title>Source Distribution</title>
+      <ul>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/release/src/poi-src-3.16-20170419.tar.gz">poi-src-3.16-20170419.tar.gz</link>
+          (82.00 MB, <link href="https://www.apache.org/dist/poi/release/src/poi-src-3.16-20170419.tar.gz.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/release/src/poi-src-3.16-20170419.tar.gz.md5">
+          3bed80f7a54218f4da3077008839609a</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/release/src/poi-src-3.16-20170419.tar.gz.sha1">
+          a0b86254ccbea1fe7252b29416faa10ff4ccb865</link>
+        </li>
+        <li><link href="https://www.apache.org/dyn/closer.lua/poi/release/src/poi-src-3.16-20170419.zip">poi-src-3.16-20170419.zip</link>
+          (86.07 MB, <link href="https://www.apache.org/dist/poi/release/src/poi-src-3.16-20170419.zip.asc">signature (.asc)</link>)
+          <br/>
+          MD5 checksum: <link href="https://www.apache.org/dist/poi/release/src/poi-src-3.16-20170419.zip.md5">
+          775835a993b71912f9c098ed73abdb6d</link>
+          <br/>
+          SHA1 checksum: <link href="https://www.apache.org/dist/poi/release/src/poi-src-3.16-20170419.zip.sha1">
+          608ed8d9abffab26fcbebaa33c5b222cef545ea8</link>
+        </li>
+      </ul>
+      </section>
+    </section>
+    
+    <section id="nightly"><title>Nightly Builds</title>
+     <p>The POI nightly builds are run on the <link href="https://builds.apache.org/view/P/view/POI/">Jenkins</link> continuous integration server.
+     <br/>
+     <strong>These builds should not be used in production</strong>: they are mostly intended for use by developers
+     to help with resolving bugs and evaluating new features or users who want to try out the latest version.
+     </p>
+     <ul>
+      <li><link href="https://builds.apache.org/view/P/view/POI/job/POI-DSL-1.6/lastSuccessfulBuild/artifact/build/dist/">
+        Last Successful Jenkins build for POI-trunk</link></li> 
+     </ul>
+    </section>
+
+    <section id="verify"><title>Verify</title>
+      <p>
+        It is essential that you verify the integrity of the downloaded files using the PGP and MD5 signatures. 
+        Please read <link href="https://httpd.apache.org/dev/verification.html">Verifying Apache HTTP Server Releases</link>
+	for more information on why you should verify our releases. This page provides detailed instructions which you can use for POI artifacts.
+      </p>
+      <p>
+        The PGP signatures can be verified using PGP or GPG. First
+        <link href="https://svn.apache.org/repos/asf/poi/trunk/KEYS">download the KEYS file</link>
+        as well as the .asc signature files  for the relevant release packages.
+        Make sure you get these files from the main distribution directory, rather than from a mirror.
+        Then <link href="https://www.apache.org/info/verification.html">verify the signatures</link>.
+      </p>
+      <p>  
+        As an example:
+      </p>
+      <source>
+% pgpk -a KEYS
+% pgpv poi-X.Y.Z.jar.asc        
+      </source>  
+      <p>or</p>
+      <source>
+% pgp -ka KEYS
+% pgp poi-X.Y.Z.jar.asc
+      </source>
+      <p>or</p>
+      <source>
+% gpg --import KEYS
+% gpg --verify poi-X.Y.Z.jar.asc poi-X.Y.Z.jar
+      </source>
+      <p>Sample verification of poi-bin-3.5-FINAL-20090928.tar.gz</p>
+      <source>
+% gpg --import KEYS
+gpg: key 12DAE9BE: "Glen Stampoultzis &lt;glens at apache dot org&gt;" not changed
+gpg: key 4CEED75F: "Nick Burch &lt;nick at gagravarr dot org&gt;" not changed
+gpg: key 84B5A42E: "Rainer Klute &lt;rainer.klute at gmx dot de&gt;" not changed
+gpg: key F5BB52CD: "Yegor Kozlov &lt;yegor.kozlov at gmail dot com&gt;" not changed
+gpg: Total number processed: 4
+gpg:              unchanged: 4
+% gpg --verify poi-bin-3.5-FINAL-20090928.tar.gz.asc poi-bin-3.5-FINAL-20090928.tar.gz
+gpg: Signature made Mon Sep 28 10:28:25 2009 PDT using DSA key ID F5BB52CD
+gpg: Good signature from "Yegor Kozlov &lt;yegor.kozlov at gmail dot com&gt;"
+gpg:                 aka "Yegor Kozlov &lt;yegor at dinom dot ru&gt;"
+gpg:                 aka "Yegor Kozlov &lt;yegor at apache dot org&gt;"
+Primary key fingerprint: 7D77 0C77 6CE7 754E E6AF  23AA 6934 0A02 F5BB 52CD
+% gpg --fingerprint F5BB52CD
+pub   1024D/F5BB52CD 2007-06-18 [expires: 2012-06-16]
+       Key fingerprint = 7D77 0C77 6CE7 754E E6AF  23AA 6934 0A02 F5BB 52CD
+uid                  Yegor Kozlov &lt;yegor.kozlov at gmail dot com&gt;
+uid                  Yegor Kozlov &lt;yegor at dinom dot ru&gt;
+uid                  Yegor Kozlov &lt;yegor at apache dot org&gt;
+sub   4096g/7B45A98A 2007-06-18 [expires: 2012-06-16]
+      </source>
+    </section>
+    <section id="archive"><title>Release Archives</title>
+      <p>
+	Apache POI became a top level project in June 2007 and POI 3.0 artifacts were re-released.
+	Prior to that date POI was a sub-project of <link href="https://jakarta.apache.org/">Apache Jakarta.</link>
+      </p>
+      <ul>
+          <li><link href="https://archive.apache.org/dist/poi/release/bin/">Binary Artifacts</link></li>
+          <li><link href="https://archive.apache.org/dist/poi/release/src/">Source Artifacts</link></li>
+          <!-- We don't encourage using beta builds, but if someone needs a beta build because of an unfixed bug
+               that was introduced between a beta release and a final release, beta releases are also archived.
+               archived beta releases: https://archive.apache.org/dist/poi/dev/ -->
+          <li><link href="https://archive.apache.org/dist/poi/">Keys</link></li>
+          <li><link href="https://archive.apache.org/dist/jakarta/poi/release/">Artifacts from prior to 3.0</link></li>
+      </ul>
+    </section>
+  </body>
+  <footer>
+    <legal>
+      Copyright (c) @year@ The Apache Software Foundation. All rights reserved.
+      <br />
+      Apache POI, POI, Apache, the Apache feather logo, and the Apache 
+      POI project logo are trademarks of The Apache Software Foundation.
+    </legal>
+  </footer>
+</document>

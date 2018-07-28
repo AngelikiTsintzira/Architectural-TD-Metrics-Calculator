@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   ====================================================================
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   ====================================================================
+-->
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V1.3//EN" "./dtd/document-v13.dtd">
+
+<document>
+    <header>
+        <title>Apache POI - Related Projects</title>
+        <authors>
+            <person id="DS" name="Dominik Stadler" email="centic@apache.org"/>
+        </authors>
+    </header>
+
+    <body>
+        <section>
+            <title>Introduction</title>
+            <p>
+                This page lists other projects that you might find interesting when working with documents of various types. Suggestions for additional links are welcome, however please note that we only list open source projects here. Commercial applications can provide <link href="casestudies.html">case studies</link> if they want to show their support for POI.
+            </p>
+        </section>
+        <section>
+            <title>Apache projects</title>
+              <section><title>Apache Tika</title>
+              <p>
+              <link href="https://tika.apache.org/">Apache Tika</link> is a toolkit which detects and extracts metadata and text from over a thousand different file types.
+              </p>
+              </section>
+              <section><title>Worksheet plugin for JSPWiki</title>
+              <p>
+                  There is a <link href="https://jspwiki-wiki.apache.org/Wiki.jsp?page=WorksheetPlugin#top">Worksheet plugin</link> for <link href="https://jspwiki.apache.org/">JSPWiki</link> which allows to display contents of Excel files as a table in JSPWiki.
+              </p>
+              </section>
+		</section>
+        <section>
+            <title>Apache incubating projects</title>
+              <section><title>Apache ODF Toolkit (incubating)</title>
+              <p>
+              <link href="https://incubator.apache.org/odftoolkit/">Apache ODF Toolkit (incubating)</link> is a set of Java modules that allow programmatic creation, scanning and manipulation of OpenDocument Format (ISO/IEC 26300 == ODF) documents.
+              </p>
+              </section>
+              
+              <section><title>Apache Corinthia (retired)</title>
+              <p>
+              <link href="https://corinthia.incubator.apache.org/">Apache Corinthia (incubating)</link> is a toolkit/application written in C++ for converting between and editing common office file formats, with an initial focus on word processing.
+              </p>
+              </section>
+		</section>
+        <section>
+            <title>Other projects</title>
+              <section><title>Jackcess</title>
+              <p>
+              <link href="http://jackcess.sourceforge.net/">Jackcess</link> is a pure Java library for reading from and writing to MS Access databases available under Apache License 2.0.
+              </p>
+              </section>
+              <section><title>poi-mail-merge</title>
+              <p>
+              <link href="https://github.com/centic9/poi-mail-merge">poi-mail-merge</link> is a small tool to automate mail-merges, i.e. replacing strings in a template Microsoft Word file multiple times with data from a list of replacements 
+              provided as Excel/CSV data. Available under the BSD 2-Clause License. 
+              </p>
+              </section>
+              <section><title>poi-visio</title>
+              <p>Merged into POI as of version 3.14</p>
+              <p>
+              <link href="https://github.com/BBN-D/poi-visio">poi-visio</link> is a Java library that loads Visio OOXML (vsdx) files and creates an in-memory data structure that allows full access to the contents of the document. 
+              There is built-in support for easily traversing the content of the document in a structured way, and can render pages to simplified PNG files, or other backends supported by Java AWT. 
+              Currently the library only operates in read-only mode, but its design does not exclude being able to modify existing documents or creating new documents.
+              Available under the Apache License, Version 2.0.
+              </p>
+              </section>
+              <section><title>poi-visio-graph</title>
+              <p>
+              <link href="https://github.com/BBN-D/poi-visio-graph">poi-visio-graph</link> is a Java library that loads Visio OOXML (vsdx) files using the poi-visio library and creates an in-memory graph structure from the objects present on the page. 
+              It utilizes user-specified connection points and also performs analysis to infer logical visual connection points between the objects on each page. 
+              One possible use of this library is to create a network diagram from a Visio document.
+              Available under the Apache License, Version 2.0.
+              </p>
+              </section>
+              <section><title>NPOI</title>
+              <p>
+              <link href="https://npoi.codeplex.com/">NPOI</link> is a .NET version of Apache POI available under Apache License 2.0.
+              </p>
+              </section>
+              <section><title>Vaadin Spreadsheet</title>
+              <p>
+              <link href="https://github.com/vaadin/spreadsheet">Vaadin Spreadsheet</link> is a UI component add-on for Vaadin 7 which provides means to view and edit Excel spreadsheets in Vaadin applications.
+              Available under the Commercial Vaadin Add-on License version 3 (CVALv3).
+              </p>
+              </section>
+              <section><title>Excel module for Apache Isis</title>
+              <p>
+              <link href="https://github.com/isisaddons/isis-module-excel">Excel module for Apache Isis</link> is an add on for Apache Isis and provides a domain service so that a collection of (view model) 
+              object scan be exported to an Excel spreadsheet, or recreated by importing from Excel.
+              Available under the Apache License, Version 2.0.
+              </p>
+              </section>
+              <section><title>Excel Streaming Reader</title>
+              <p>
+              <link href="https://github.com/monitorjbl/excel-streaming-reader">Excel Streaming Reader</link> uses the POI Streaming API to provide Row/Cell like read-access to large Excel spreadsheets.
+              Available under the Apache License, Version 2.0.
+              </p>
+              </section>
+            <section><title>XDocReport</title>
+                <p>
+                    <link href="https://github.com/opensagres/xdocreport">XDocReport</link> is a Java API to merge XML document created with MS Office (docx) or OpenOffice (odt),
+                    LibreOffice (odt) with a Java model to generate report and convert it if you need to another format (PDF, XHTML...).
+                    XDocReport code is license under MIT license but the samples are licensed under LGPL license.
+                </p>
+            </section>
+            <section><title>Frosted Sheets</title>
+                <p>
+                    <link href="https://bitbucket.org/erosa/frostedsheets/overview">Frosted Sheets</link> is a Groovy library which provides decorators for Apache POI spreadsheets, making it easier to work with spreadsheets
+                    in Groovy.
+                    Frosted Sheets is license under the Apache License, Version 2.0.
+                </p>
+            </section>
+            <section><title>IEXL Software</title>
+                <p>
+                    <link href="http://www.iexlsoftware.com/">iEXL</link> is a commercial product which allow to generate Excel spreadsheets on AS/400, iSeries, i5 or IBM i on Power systems.
+                    It uses Apache POI internally.
+                </p>
+            </section>
+            <section><title>jotlmsg</title>
+                <p>
+                    <link href="https://github.com/ctabin/jotlmsg">jotlmsg</link> is a simple API (on top of POI) to easily generate Microsoft Outlook message files (.msg).
+                </p>
+            </section>
+            <section><title>HadoopOffice</title>
+                <p>
+                    <link href="https://github.com/ZuInnoTe/hadoopoffice">HadoopOffice</link> allows to read and write Office documents while using the Hadoop ecosystem.
+                </p>
+            </section>
+		</section>
+    </body>
+    <footer>
+        <legal>
+            Copyright (c) @year@ The Apache Software Foundation All rights reserved.
+            <br />
+            Apache POI, POI, Apache, the Apache feather logo, and the Apache 
+            POI project logo are trademarks of The Apache Software Foundation.
+        </legal>
+    </footer>
+</document>
